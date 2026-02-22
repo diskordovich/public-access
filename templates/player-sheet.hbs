@@ -1,0 +1,317 @@
+<form class="public-access sheet actor player-sheet" autocomplete="off">
+
+  <header class="forum-topbar">
+    <div class="forum-logo">★ PUBLIC ACCESS ★</div>
+    <div class="forum-nav">
+      <span class="nav-link">Главная</span>
+      <span class="nav-sep">»</span>
+      <span class="nav-link">Персонажи</span>
+      <span class="nav-sep">»</span>
+      <span class="nav-current">Просмотр профиля</span>
+    </div>
+  </header>
+
+  <div class="thread-title-bar">
+    <span class="thread-icon">📌</span>
+    <input class="thread-title-input" name="name" type="text" value="{{actor.name}}" placeholder="Имя персонажа" />
+  </div>
+
+  <div class="forum-post">
+
+    <div class="user-panel">
+      <div class="avatar-frame">
+        <img class="avatar" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" />
+      </div>
+
+      <div class="username">{{actor.name}}</div>
+      <div class="user-title">отмычка</div>
+      <div class="user-stars">★★★☆☆</div>
+
+      <div class="user-info-table">
+        <div class="info-row">
+          <span class="info-label">Вид</span>
+          <input type="text" name="system.species" value="{{system.species}}" placeholder="—" />
+        </div>
+        <div class="info-row">
+          <span class="info-label">Стиль</span>
+          <input type="text" name="system.style" value="{{system.style}}" placeholder="—" />
+        </div>
+      </div>
+
+      <div class="user-online">
+        <span class="online-dot"></span> В СЕТИ
+      </div>
+    </div>
+
+    <div class="post-content">
+      <div class="post-header">
+        <span class="post-date">Отправлено: Сегодня в ???</span>
+        <span class="post-number">#1</span>
+      </div>
+
+      <nav class="sheet-tabs tabs" data-group="primary">
+        <a class="item" data-tab="main" data-group="primary">» Персонаж</a>
+        <a class="item" data-tab="notes" data-group="primary">» Заметки</a>
+      </nav>
+
+      <section class="sheet-body">
+
+        {{!-- ═══ MAIN TAB ═══ --}}
+        <div class="tab main" data-group="primary" data-tab="main">
+
+          {{!-- Stats --}}
+          <div class="section-header"><span>─── ★ ХАРАКТЕРИСТИКИ ★ ───</span></div>
+          <div class="stats-row">
+            <div class="stat-box">
+              <input type="number" name="system.stats.vitality" value="{{system.stats.vitality}}" />
+              <span class="stat-label rollable" data-stat="vitality" data-label="Живучесть"
+                    title="Клик: 2d6+стат | Shift: преимущество (3d6kh2) | Ctrl: помеха (3d6kl2)">
+                Живучесть
+              </span>
+            </div>
+            <div class="stat-box">
+              <input type="number" name="system.stats.composure" value="{{system.stats.composure}}" />
+              <span class="stat-label rollable" data-stat="composure" data-label="Самообладание"
+                    title="Клик: 2d6+стат | Shift: преимущество (3d6kh2) | Ctrl: помеха (3d6kl2)">
+                Самообладание
+              </span>
+            </div>
+            <div class="stat-box">
+              <input type="number" name="system.stats.reason" value="{{system.stats.reason}}" />
+              <span class="stat-label rollable" data-stat="reason" data-label="Рассудок"
+                    title="Клик: 2d6+стат | Shift: преимущество (3d6kh2) | Ctrl: помеха (3d6kl2)">
+                Рассудок
+              </span>
+            </div>
+            <div class="stat-box">
+              <input type="number" name="system.stats.presence" value="{{system.stats.presence}}" />
+              <span class="stat-label rollable" data-stat="presence" data-label="Присутствие"
+                    title="Клик: 2d6+стат | Shift: преимущество (3d6kh2) | Ctrl: помеха (3d6kl2)">
+                Присутствие
+              </span>
+            </div>
+            <div class="stat-box">
+              <input type="number" name="system.stats.sensitivity" value="{{system.stats.sensitivity}}" />
+              <span class="stat-label rollable" data-stat="sensitivity" data-label="Чувствительность"
+                    title="Клик: 2d6+стат | Shift: преимущество (3d6kh2) | Ctrl: помеха (3d6kl2)">
+                Чувствительность
+              </span>
+            </div>
+          </div>
+
+          {{!-- Takes You Back + Conditions side-by-side --}}
+          <div class="two-columns">
+            <div class="column">
+              <div class="section-header"><span>★ ВОЗВРАЩАЕТ ТЕБЯ В ПРОШЛОЕ ★</span></div>
+              <div class="takes-you-back">
+                {{#each system.takes_you_back}}
+                <div class="memory-row">
+                  <span class="memory-icon">◈</span>
+                  <input type="text" name="system.takes_you_back.{{@index}}" value="{{this}}" placeholder="Воспоминание..." />
+                </div>
+                {{/each}}
+              </div>
+            </div>
+            <div class="column">
+              <div class="section-header"><span>★ СОСТОЯНИЯ ★</span></div>
+              <div class="conditions-list">
+                <div class="condition-row">
+                  <span class="condition-icon">⚠</span>
+                  <input type="text" name="system.condition_1" value="{{system.condition_1}}" placeholder="—" />
+                </div>
+                <div class="condition-row">
+                  <span class="condition-icon">⚠</span>
+                  <input type="text" name="system.condition_2" value="{{system.condition_2}}" placeholder="—" />
+                </div>
+                <div class="condition-row">
+                  <span class="condition-icon">⚠</span>
+                  <input type="text" name="system.condition_3" value="{{system.condition_3}}" placeholder="—" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {{!-- Keys (left) + XP & Advancements (right) --}}
+          <div class="two-columns keys-progress">
+            <div class="column">
+              <div class="section-header"><span>★ КЛЮЧ РЕБЁНКА ★</span></div>
+              <div class="checklist">
+                <label class="checklist-item">
+                  <input type="checkbox" name="system.key_of_child.kc1" {{checked system.key_of_child.kc1}} />
+                  <span>Флешбэк о том, как ты возвращался домой после школы</span>
+                </label>
+                <label class="checklist-item">
+                  <input type="checkbox" name="system.key_of_child.kc2" {{checked system.key_of_child.kc2}} />
+                  <span>Флешбэк о том, как ты был чужим среди сверстников</span>
+                </label>
+                <label class="checklist-item">
+                  <input type="checkbox" name="system.key_of_child.kc3" {{checked system.key_of_child.kc3}} />
+                  <span>Флешбэк о моменте, когда ты понял, что твои родители несовершенны</span>
+                </label>
+                <label class="checklist-item">
+                  <input type="checkbox" name="system.key_of_child.kc4" {{checked system.key_of_child.kc4}} />
+                  <span>Флешбэк о моменте искренней детской радости</span>
+                </label>
+                <label class="checklist-item">
+                  <input type="checkbox" name="system.key_of_child.kc5" {{checked system.key_of_child.kc5}} />
+                  <span>Флешбэк о пережитой детской травме</span>
+                </label>
+                <label class="checklist-item">
+                  <input type="checkbox" name="system.key_of_child.kc6" {{checked system.key_of_child.kc6}} />
+                  <span>Флешбэк о моменте, когда ты понял, что детство не навсегда</span>
+                </label>
+                <label class="checklist-item">
+                  <input type="checkbox" name="system.key_of_child.kc7" {{checked system.key_of_child.kc7}} />
+                  <span>Флешбэк о том, как ты впервые узнал о TV Odyssey</span>
+                </label>
+              </div>
+
+              <div class="section-header"><span>★ КЛЮЧ ЗАПУСТЕНИЯ ★</span></div>
+              <div class="checklist desolation">
+                <label class="checklist-item">
+                  <input type="checkbox" name="system.desolation_key.dk1" {{checked system.desolation_key.dk1}} />
+                  <span><strong>Арка из Песчаника.</strong> Открывает вопрос конца сессии: «Получили ли вы Сигнал с Другой Стороны?»</span>
+                </label>
+                <label class="checklist-item">
+                  <input type="checkbox" name="system.desolation_key.dk2" {{checked system.desolation_key.dk2}} />
+                  <span><strong>Бездонный Колодец.</strong> Рассудок −1, Чувствительность +1</span>
+                </label>
+                <label class="checklist-item">
+                  <input type="checkbox" name="system.desolation_key.dk3" {{checked system.desolation_key.dk3}} />
+                  <span><strong>Блуждающий Монолит.</strong> Теперь можно искать Большого Человека</span>
+                </label>
+                <label class="checklist-item">
+                  <input type="checkbox" name="system.desolation_key.dk4" {{checked system.desolation_key.dk4}} />
+                  <span><strong>Хроматическая Пустыня.</strong> Другие персонажи больше не могут тебя воспринять</span>
+                </label>
+                <label class="checklist-item">
+                  <input type="checkbox" name="system.desolation_key.dk5" {{checked system.desolation_key.dk5}} />
+                  <span><strong>Чисто-Белый Сигнал.</strong> Ты теряешь связь с миром. Персонаж уходит на покой</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="column">
+              <div class="section-header"><span>★ ОПЫТ ★</span></div>
+              <div class="xp-track">
+                <div class="xp-boxes">
+                  <label class="xp-box"><input type="checkbox" name="system.xp.xp1" {{checked system.xp.xp1}} /><span></span></label>
+                  <label class="xp-box"><input type="checkbox" name="system.xp.xp2" {{checked system.xp.xp2}} /><span></span></label>
+                  <label class="xp-box"><input type="checkbox" name="system.xp.xp3" {{checked system.xp.xp3}} /><span></span></label>
+                  <label class="xp-box"><input type="checkbox" name="system.xp.xp4" {{checked system.xp.xp4}} /><span></span></label>
+                  <label class="xp-box"><input type="checkbox" name="system.xp.xp5" {{checked system.xp.xp5}} /><span></span></label>
+                </div>
+              </div>
+
+              <div class="section-header"><span>★ УЛУЧШЕНИЯ ★</span></div>
+              <div class="checklist">
+                <label class="checklist-item">
+                  <input type="checkbox" name="system.advancements.adv1" {{checked system.advancements.adv1}} />
+                  <span>Увеличить характеристику на 1 (макс. 3)</span>
+                </label>
+                <label class="checklist-item">
+                  <input type="checkbox" name="system.advancements.adv2" {{checked system.advancements.adv2}} />
+                  <span>Увеличить характеристику на 1 (макс. 3)</span>
+                </label>
+                <label class="checklist-item">
+                  <input type="checkbox" name="system.advancements.adv3" {{checked system.advancements.adv3}} />
+                  <span>Выбрать дополнительный ход</span>
+                </label>
+                <label class="checklist-item">
+                  <input type="checkbox" name="system.advancements.adv4" {{checked system.advancements.adv4}} />
+                  <span>Выбрать дополнительный ход</span>
+                </label>
+                <label class="checklist-item">
+                  <input type="checkbox" name="system.advancements.adv5" {{checked system.advancements.adv5}} />
+                  <span>Написать свой ход для персонажа</span>
+                </label>
+                <label class="checklist-item">
+                  <input type="checkbox" name="system.advancements.adv6" {{checked system.advancements.adv6}} />
+                  <span>Снять все отметки в «Твоём Углу Дома»</span>
+                </label>
+              </div>
+            </div>
+          </div>
+
+          {{!-- Dawn Questions --}}
+          <div class="section-header"><span>─── ★ ВОПРОСЫ РАССВЕТА ★ ───</span></div>
+          <p class="section-hint">Первый всегда отмечен. Второй отмечается после открытия. Отметьте ещё два.</p>
+          <div class="checklist">
+            <label class="checklist-item">
+              <input type="checkbox" name="system.dawn_questions.dq1" {{checked system.dawn_questions.dq1}} />
+              <span>Нашли ли отмычки ответ на одну из тайн?</span>
+            </label>
+            <label class="checklist-item">
+              <input type="checkbox" name="system.dawn_questions.dq2" {{checked system.dawn_questions.dq2}} />
+              <span>Получили ли вы Сигнал с Другой Стороны? <em>(Заблокировано, пока не отмечена Арка из Песчаника)</em></span>
+            </label>
+            <label class="checklist-item">
+              <input type="checkbox" name="system.dawn_questions.dq3" {{checked system.dawn_questions.dq3}} />
+              <span>Поделились ли вы хорошим воспоминанием из детства?</span>
+            </label>
+            <label class="checklist-item">
+              <input type="checkbox" name="system.dawn_questions.dq4" {{checked system.dawn_questions.dq4}} />
+              <span>Были ли вы уязвимы с кем-то?</span>
+            </label>
+            <label class="checklist-item">
+              <input type="checkbox" name="system.dawn_questions.dq5" {{checked system.dawn_questions.dq5}} />
+              <span>Сделали ли вы что-то особенное, чтобы восстановить связь с Дип Лейком?</span>
+            </label>
+            <label class="checklist-item">
+              <input type="checkbox" name="system.dawn_questions.dq6" {{checked system.dawn_questions.dq6}} />
+              <span>Произнесли ли вы леденящий монолог о том, что случилось с вами в прошлом?</span>
+            </label>
+            <label class="checklist-item">
+              <input type="checkbox" name="system.dawn_questions.dq7" {{checked system.dawn_questions.dq7}} />
+              <span>Позволили ли вы себе оторваться хоть раз?</span>
+            </label>
+          </div>
+
+          {{!-- Moves --}}
+          <div class="section-header">
+            <span>─── ★ ХОДЫ ★ ───</span>
+            <button type="button" class="move-add" title="Добавить ход">+</button>
+          </div>
+          <div class="moves-list">
+            {{#each moves}}
+            <div class="move-item" data-item-id="{{this.id}}">
+              <div class="move-header">
+                <span class="move-name">▸ {{this.name}}</span>
+                <div class="move-controls">
+                  <button type="button" class="item-edit" title="Редактировать"><i class="fas fa-edit"></i></button>
+                  <button type="button" class="item-delete" title="Удалить"><i class="fas fa-trash"></i></button>
+                </div>
+              </div>
+              <div class="move-description">{{{this.system.description}}}</div>
+            </div>
+            {{/each}}
+            {{#unless moves.length}}
+            <p class="no-items-hint">Ходов пока нет — перетащите из компендиума.</p>
+            {{/unless}}
+          </div>
+
+        </div>
+
+        {{!-- ═══ NOTES TAB ═══ --}}
+        <div class="tab notes" data-group="primary" data-tab="notes">
+
+          <div class="section-header"><span>─── ★ ЗАМЕТКИ ★ ───</span></div>
+          <div class="notes-area">
+            <textarea name="system.notes" placeholder="Запишите свои мысли...">{{system.notes}}</textarea>
+          </div>
+
+        </div>
+
+      </section>
+    </div>
+
+  </div>
+
+  <div class="forum-signature">
+    <div class="sig-separator">─── ✦ ─── ✦ ─── ✦ ───</div>
+    <div class="sig-content">
+      <em>「 забытое найдёт тебя 」</em>
+    </div>
+  </div>
+
+</form>

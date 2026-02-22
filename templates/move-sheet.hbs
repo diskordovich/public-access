@@ -1,0 +1,28 @@
+<form class="public-access sheet item move-sheet" autocomplete="off">
+
+  <header class="forum-topbar">
+    <div class="forum-logo compact">★ PUBLIC ACCESS ★</div>
+    <div class="forum-nav">
+      <span class="nav-link">Компендиум</span>
+      <span class="nav-sep">»</span>
+      <span class="nav-current">Ход</span>
+    </div>
+  </header>
+
+  <div class="thread-title-bar">
+    <span class="thread-icon">📄</span>
+    <input class="thread-title-input" name="name" type="text" value="{{item.name}}" placeholder="Название хода" />
+  </div>
+
+  <div class="move-sheet-body">
+    <div class="section-header"><span>★ ОПИСАНИЕ ★</span></div>
+    <div class="move-editor">
+      <textarea name="system.description" placeholder="Опишите, что делает этот ход...">{{system.description}}</textarea>
+    </div>
+  </div>
+
+  <div class="forum-signature">
+    <div class="sig-separator">─── ✦ ───</div>
+  </div>
+
+</form>

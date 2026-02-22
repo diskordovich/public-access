@@ -1,0 +1,30 @@
+{
+    "id": "public-access",
+    "version": "0.0.1",
+    "title": "Public Access",
+    "description": "Хоррор игра про то, что было забыто",
+    "authors": [
+        {
+            "name": "diskordovich",
+            "discord": "diskordovich"
+        }
+    ],
+    "compatibility": {
+        "minimum": "13",
+        "verified": "13"
+    },
+    "esmodules": [
+        "public-access.js"
+    ],
+    "styles": [
+        "public-access.css"
+    ],
+    "packs": [
+        {
+            "name": "public-access",
+            "label": "Public Access Навыки",
+            "path": "packs/public-access.db",
+            "type": "Item"
+        }
+    ]
+}

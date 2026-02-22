@@ -1,0 +1,94 @@
+{
+    "Actor": {
+        "templates": {
+            "player": {
+                "description": "something"
+            }
+        },
+        "types": [
+            "player",
+            "mystery"
+        ],
+        "player":{
+            "templates": [
+                "player"
+            ],
+            "name": "string",
+            "species": "string",
+            "style": "string",
+            "takes_you_back": [
+                "string",
+                "string",
+                "string"
+            ],
+            "stats": {
+                "vitality": 0,
+                "composure": 1,
+                "reason": 1,
+                "presence": 0,
+                "sensitivity": 0
+            },
+            "condition_1": "",
+            "condition_2": "",
+            "condition_3": "",
+            "xp": {
+                "xp1": false,
+                "xp2": false,
+                "xp3": false,
+                "xp4": false,
+                "xp5": false
+            },
+            "advancements": {
+                "adv1": false,
+                "adv2": false,
+                "adv3": false,
+                "adv4": false,
+                "adv5": false,
+                "adv6": false
+            },
+            "key_of_child": {
+                "kc1": false,
+                "kc2": false,
+                "kc3": false,
+                "kc4": false,
+                "kc5": false,
+                "kc6": false,
+                "kc7": false
+            },
+            "desolation_key": {
+                "dk1": false,
+                "dk2": false,
+                "dk3": false,
+                "dk4": false,
+                "dk5": false
+            },
+            "corner_of_house": [],
+            "dawn_questions": {
+                "dq1": false,
+                "dq2": false,
+                "dq3": false,
+                "dq4": false,
+                "dq5": false,
+                "dq6": false,
+                "dq7": false
+            },
+            "latchkey_moves": [],
+            "notes": "string"
+        },
+        "mystery":{
+            "name": "string",
+            "questions": [],
+            "opportunities": [],
+            "notes": "string"
+        }
+    },
+    "Item": {
+        "types": [
+            "moves"
+        ],
+        "moves":{
+            "name": "string",
+            "description": "string"
+        }
+    }
+}
