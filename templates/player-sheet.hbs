@@ -230,6 +230,23 @@
                   <span>Снять все отметки в «Твоём Углу Дома»</span>
                 </label>
               </div>
+
+              <div class="section-header">
+                <span>★ ТВОЙ УГОЛ ДОМА ★</span>
+                <button type="button" class="corner-add" title="Добавить предмет">+</button>
+              </div>
+              <div class="corner-grid">
+                {{#each cornerItems}}
+                <div class="corner-item {{#if this.system.crossed}}is-crossed{{/if}}" data-item-id="{{this.id}}">
+                  <input type="checkbox" class="corner-cross" {{checked this.system.crossed}} title="Зачеркнуть" />
+                  <input type="text" value="{{this.name}}" placeholder="Предмет..." class="corner-name" />
+                  <button type="button" class="corner-delete" title="Убрать">✕</button>
+                </div>
+                {{/each}}
+                {{#unless cornerItems.length}}
+                <p class="no-items-hint">Пусто — добавьте предметы кнопкой +</p>
+                {{/unless}}
+              </div>
             </div>
           </div>
 
@@ -269,7 +286,7 @@
 
           {{!-- Moves --}}
           <div class="section-header">
-            <span>─── ★ ХОДЫ ★ ───</span>
+            <span>─── ★ ОСОБЕННОСТИ ★ ───</span>
             <button type="button" class="move-add" title="Добавить ход">+</button>
           </div>
           <div class="moves-list">
@@ -286,7 +303,7 @@
             </div>
             {{/each}}
             {{#unless moves.length}}
-            <p class="no-items-hint">Ходов пока нет — перетащите из компендиума.</p>
+            <p class="no-items-hint">Особенностей пока нет.</p>
             {{/unless}}
           </div>
 

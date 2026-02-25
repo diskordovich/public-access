@@ -654,6 +654,124 @@
 }
 
 
+/* ── Your Corner of the House ────────────────────────────── */
+
+.public-access .section-header .corner-add {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background: linear-gradient(180deg, var(--pa-bg-raised) 0%, var(--pa-bg-panel) 100%);
+  border: 2px outset var(--pa-border);
+  color: var(--pa-cyan);
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: bold;
+  width: 22px;
+  height: 22px;
+  line-height: 16px;
+  text-align: center;
+  cursor: pointer;
+  padding: 0;
+}
+
+.public-access .section-header .corner-add:hover {
+  color: var(--pa-text-bright);
+  background: var(--pa-bg-raised);
+}
+
+.public-access .section-header .corner-add:active {
+  border-style: inset;
+}
+
+.public-access .corner-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  margin-bottom: 4px;
+}
+
+.public-access .corner-item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 4px;
+  background: var(--pa-bg-mid);
+  border: 1px solid var(--pa-border-dim);
+}
+
+.public-access .corner-item .corner-cross {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 14px;
+  height: 14px;
+  min-width: 14px;
+  background: var(--pa-bg-input);
+  border: 2px inset var(--pa-border-dim);
+  cursor: pointer;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.public-access .corner-item .corner-cross:checked {
+  background: var(--pa-bg-panel);
+  border-style: outset;
+}
+
+.public-access .corner-item .corner-cross:checked::after {
+  content: "✓";
+  color: var(--pa-cyan);
+  position: absolute;
+  top: -3px;
+  left: 1px;
+  font-size: 13px;
+  font-weight: bold;
+  text-shadow: 0 0 4px rgba(0, 204, 255, 0.5);
+}
+
+.public-access .corner-item .corner-name {
+  flex: 1;
+  background: var(--pa-bg-input);
+  border: 1px inset var(--pa-border-dim);
+  color: var(--pa-text);
+  font-family: inherit;
+  font-size: 10px;
+  padding: 2px 4px;
+  min-width: 0;
+}
+
+.public-access .corner-item.is-crossed .corner-name {
+  text-decoration: line-through;
+  color: var(--pa-text-dim);
+}
+
+.public-access .corner-item .corner-delete {
+  background: none;
+  border: 1px outset var(--pa-border-dim);
+  color: var(--pa-text-dim);
+  font-size: 9px;
+  cursor: pointer;
+  padding: 0;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  line-height: 14px;
+  text-align: center;
+  flex-shrink: 0;
+  flex-grow: 0;
+  transition: color 0.1s;
+}
+
+.public-access .corner-item .corner-delete:hover {
+  color: var(--pa-red);
+  border-color: var(--pa-red);
+}
+
+.public-access .corner-grid .no-items-hint {
+  text-align: center;
+}
+
+
 /* ── Moves ───────────────────────────────────────────────── */
 
 .public-access .moves-list {

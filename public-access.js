@@ -6,7 +6,8 @@ class PublicAccessPlayerSheet extends ActorSheet {
       template: "systems/public-access/templates/player-sheet.hbs",
       width: 740,
       height: 860,
-      tabs: [{ navSelector: ".sheet-tabs", contentSelector: ".sheet-body", initial: "main" }]
+      tabs: [{ navSelector: ".sheet-tabs", contentSelector: ".sheet-body", initial: "main" }],
+      scrollY: [".sheet-body"]
     });
   }
 
@@ -16,6 +17,7 @@ class PublicAccessPlayerSheet extends ActorSheet {
     context.system = actorData.system;
     context.flags = actorData.flags;
     context.moves = this.actor.items.filter(i => i.type === "moves");
+    context.cornerItems = this.actor.items.filter(i => i.type === "corner_item");
     return context;
   }
 
@@ -26,6 +28,26 @@ class PublicAccessPlayerSheet extends ActorSheet {
     html.find(".rollable").click(this._onStatRoll.bind(this));
 
     html.find(".move-add").click(this._onMoveAdd.bind(this));
+
+    html.find(".corner-add").click(this._onCornerAdd.bind(this));
+
+    html.find(".corner-cross").click(ev => {
+      const id = $(ev.currentTarget).closest(".corner-item").data("itemId");
+      const item = this.actor.items.get(id);
+      item?.update({ "system.crossed": !item.system.crossed });
+    });
+
+    html.find(".corner-delete").click(ev => {
+      const id = $(ev.currentTarget).closest(".corner-item").data("itemId");
+      const item = this.actor.items.get(id);
+      item?.delete();
+    });
+
+    html.find(".corner-name").change(ev => {
+      const id = $(ev.currentTarget).closest(".corner-item").data("itemId");
+      const item = this.actor.items.get(id);
+      item?.update({ name: ev.currentTarget.value });
+    });
 
     html.find(".item-edit").click(ev => {
       const id = $(ev.currentTarget).closest(".move-item").data("itemId");
@@ -38,6 +60,14 @@ class PublicAccessPlayerSheet extends ActorSheet {
       const item = this.actor.items.get(id);
       item?.delete();
     });
+  }
+
+  async _onCornerAdd(event) {
+    event.preventDefault();
+    await this.actor.createEmbeddedDocuments("Item", [{
+      name: "Новый предмет",
+      type: "corner_item"
+    }]);
   }
 
   async _onMoveAdd(event) {

@@ -62,7 +62,6 @@
                 "dk4": false,
                 "dk5": false
             },
-            "corner_of_house": [],
             "dawn_questions": {
                 "dq1": false,
                 "dq2": false,
@@ -72,6 +71,7 @@
                 "dq6": false,
                 "dq7": false
             },
+            "corner_items": [],
             "latchkey_moves": [],
             "notes": "string"
         },
@@ -84,11 +84,16 @@
     },
     "Item": {
         "types": [
-            "moves"
+            "moves",
+            "corner_item"
         ],
         "moves":{
             "name": "string",
             "description": "string"
+        },
+        "corner_item":{
+            "crossed": false,
+            "name": "string"
         }
     }
 }
