@@ -232,7 +232,7 @@
 }
 
 .public-access .user-online {
-  margin-top: auto;
+  margin-top: 8px;
   font-size: 9px;
   text-transform: uppercase;
   color: var(--pa-green);
@@ -1137,6 +1137,24 @@ body {
 }
 
 #sidebar-tabs > menu >  li > button.active {
+  color: var(--pa-gold);
+  text-shadow: 0 0 6px rgba(255, 204, 0, 0.4);
+  border-bottom: 2px solid var(--pa-gold);
+}
+
+#scene-controls > menu > li > button {
+  color: var(--pa-text-dim);
+  border-right: 1px solid var(--pa-border-dim);
+  background: linear-gradient(180deg, var(--pa-bg-raised) 0%, var(--pa-bg-panel) 100%);
+  border: 2px outset var(--pa-border);
+}
+
+#scene-controls > menu >  li > button:hover {
+  color: var(--pa-link-hover);
+  text-shadow: 0 0 4px rgba(102, 153, 255, 0.3);
+}
+
+#scene-controls > menu >  li > *[aria-pressed="true"] {
   color: var(--pa-gold);
   text-shadow: 0 0 6px rgba(255, 204, 0, 0.4);
   border-bottom: 2px solid var(--pa-gold);
