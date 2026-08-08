@@ -1,0 +1,131 @@
+{
+    "TYPES": {
+        "Actor": {
+            "player": "Player",
+            "mystery": "Mystery"
+        },
+        "Item": {
+            "moves": "Move",
+            "corner_item": "Corner of the House Item"
+        }
+    },
+    "PUBLIC_ACCESS": {
+        "SheetLabels": {
+            "Player": "Public Access Player Sheet",
+            "Move": "Public Access Move Sheet"
+        },
+        "Nav": {
+            "Home": "Home",
+            "Characters": "Characters",
+            "ViewProfile": "Viewing Profile",
+            "Compendium": "Compendium",
+            "Move": "Move"
+        },
+        "Header": {
+            "CharacterNamePlaceholder": "Character name",
+            "UserTitle": "latchkey",
+            "Online": "ONLINE",
+            "PostedToday": "Posted: Today at ???"
+        },
+        "Fields": {
+            "Species": "Species",
+            "Style": "Style"
+        },
+        "Tabs": {
+            "Character": "Character",
+            "Notes": "Notes"
+        },
+        "Sections": {
+            "Stats": "STATS",
+            "TakesYouBack": "TAKES YOU BACK",
+            "Conditions": "CONDITIONS",
+            "KeyOfChild": "KEY OF THE CHILD",
+            "DesolationKey": "KEY OF DESOLATION",
+            "XP": "XP",
+            "Advancements": "ADVANCEMENTS",
+            "Corner": "YOUR CORNER OF THE HOUSE",
+            "DawnQuestions": "DAWN QUESTIONS",
+            "Moves": "MOVES",
+            "Notes": "NOTES",
+            "Description": "DESCRIPTION"
+        },
+        "Stats": {
+            "Vitality": "Vitality",
+            "Composure": "Composure",
+            "Reason": "Reason",
+            "Presence": "Presence",
+            "Sensitivity": "Sensitivity",
+            "RollHint": "Click: 2d6+stat | Shift: advantage (3d6kh2) | Ctrl: disadvantage (3d6kl2)"
+        },
+        "Roll": {
+            "Advantage": "advantage",
+            "Disadvantage": "disadvantage"
+        },
+        "TakesYouBack": {
+            "Placeholder": "Memory..."
+        },
+        "KeyOfChild": {
+            "kc1": "A flashback to walking home from school",
+            "kc2": "A flashback to being an outsider among your peers",
+            "kc3": "A flashback to the moment you realized your parents weren't perfect",
+            "kc4": "A flashback to a moment of pure childhood joy",
+            "kc5": "A flashback to a childhood trauma you lived through",
+            "kc6": "A flashback to the moment you realized childhood wouldn't last forever",
+            "kc7": "A flashback to the first time you learned about TV Odyssey"
+        },
+        "DesolationKey": {
+            "dk1Name": "Sandstone Arch.",
+            "dk1Text": "Unlocks the end-of-session question: \"Did you receive a Signal from the Other Side?\"",
+            "dk2Name": "Bottomless Well.",
+            "dk2Text": "Reason −1, Sensitivity +1",
+            "dk3Name": "Wandering Monolith.",
+            "dk3Text": "You may now seek out the Big Man",
+            "dk4Name": "Chromatic Desert.",
+            "dk4Text": "Other characters can no longer perceive you",
+            "dk5Name": "Pure White Signal.",
+            "dk5Text": "You lose your connection to the world. The character retires"
+        },
+        "Advancements": {
+            "IncreaseStat": "Increase a stat by 1 (max 3)",
+            "ExtraMove": "Choose an additional move",
+            "WriteMove": "Write your own move for your character",
+            "ClearCorner": "Clear all marks in \"Your Corner of the House\""
+        },
+        "Corner": {
+            "Add": "Add item",
+            "Cross": "Cross out",
+            "Remove": "Remove",
+            "Placeholder": "Item...",
+            "Empty": "Empty — add items with the + button"
+        },
+        "DawnQuestions": {
+            "Hint": "The first is always marked. The second is marked once unlocked. Mark two more.",
+            "dq1": "Did the latchkeys find the answer to one of the mysteries?",
+            "dq2": "Did you receive a Signal from the Other Side?",
+            "dq2Locked": "(Locked until the Sandstone Arch is marked)",
+            "dq3": "Did you share a good memory from your childhood?",
+            "dq4": "Were you vulnerable with someone?",
+            "dq5": "Did you do something special to reconnect with Deep Lake?",
+            "dq6": "Did you deliver a chilling monologue about something that happened to you in the past?",
+            "dq7": "Did you let yourself cut loose at least once?"
+        },
+        "Moves": {
+            "Add": "Add move",
+            "Edit": "Edit",
+            "Delete": "Delete",
+            "Empty": "No moves yet."
+        },
+        "Notes": {
+            "Placeholder": "Write down your thoughts..."
+        },
+        "MoveSheet": {
+            "NamePlaceholder": "Move name",
+            "DescriptionPlaceholder": "Describe what this move does..."
+        },
+        "Item": {
+            "NewCornerItem": "New Item",
+            "NewMove": "New Move"
+        },
+        "Signature": "the forgotten will find you"
+    }
+}
