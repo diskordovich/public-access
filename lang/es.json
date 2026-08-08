@@ -1,0 +1,131 @@
+{
+    "TYPES": {
+        "Actor": {
+            "player": "Jugador",
+            "mystery": "Misterio"
+        },
+        "Item": {
+            "moves": "Movimiento",
+            "corner_item": "Objeto del rincón de la casa"
+        }
+    },
+    "PUBLIC_ACCESS": {
+        "SheetLabels": {
+            "Player": "Hoja de jugador de Public Access",
+            "Move": "Hoja de movimiento de Public Access"
+        },
+        "Nav": {
+            "Home": "Inicio",
+            "Characters": "Personajes",
+            "ViewProfile": "Viendo perfil",
+            "Compendium": "Compendio",
+            "Move": "Movimiento"
+        },
+        "Header": {
+            "CharacterNamePlaceholder": "Nombre del personaje",
+            "UserTitle": "niño de la llave",
+            "Online": "EN LÍNEA",
+            "PostedToday": "Publicado: hoy a las ???"
+        },
+        "Fields": {
+            "Species": "Especie",
+            "Style": "Estilo"
+        },
+        "Tabs": {
+            "Character": "Personaje",
+            "Notes": "Notas"
+        },
+        "Sections": {
+            "Stats": "ESTADÍSTICAS",
+            "TakesYouBack": "TE LLEVA AL PASADO",
+            "Conditions": "CONDICIONES",
+            "KeyOfChild": "LLAVE DEL NIÑO",
+            "DesolationKey": "LLAVE DE LA DESOLACIÓN",
+            "XP": "PX",
+            "Advancements": "AVANCES",
+            "Corner": "TU RINCÓN DE LA CASA",
+            "DawnQuestions": "PREGUNTAS DEL AMANECER",
+            "Moves": "MOVIMIENTOS",
+            "Notes": "NOTAS",
+            "Description": "DESCRIPCIÓN"
+        },
+        "Stats": {
+            "Vitality": "Vitalidad",
+            "Composure": "Compostura",
+            "Reason": "Razón",
+            "Presence": "Presencia",
+            "Sensitivity": "Sensibilidad",
+            "RollHint": "Clic: 2d6+estadística | Mayús: ventaja (3d6kh2) | Ctrl: desventaja (3d6kl2)"
+        },
+        "Roll": {
+            "Advantage": "ventaja",
+            "Disadvantage": "desventaja"
+        },
+        "TakesYouBack": {
+            "Placeholder": "Recuerdo..."
+        },
+        "KeyOfChild": {
+            "kc1": "Un flashback de cuando volvías a casa caminando desde la escuela",
+            "kc2": "Un flashback de cuando eras un marginado entre tus compañeros",
+            "kc3": "Un flashback del momento en que comprendiste que tus padres no eran perfectos",
+            "kc4": "Un flashback de un momento de pura alegría infantil",
+            "kc5": "Un flashback de un trauma infantil que viviste",
+            "kc6": "Un flashback del momento en que comprendiste que la infancia no duraría para siempre",
+            "kc7": "Un flashback de la primera vez que supiste de TV Odyssey"
+        },
+        "DesolationKey": {
+            "dk1Name": "Arco de Arenisca.",
+            "dk1Text": "Desbloquea la pregunta de fin de sesión: «¿Recibiste una Señal del Otro Lado?»",
+            "dk2Name": "Pozo sin Fondo.",
+            "dk2Text": "Razón −1, Sensibilidad +1",
+            "dk3Name": "Monolito Errante.",
+            "dk3Text": "Ahora puedes ir en busca del Gran Hombre",
+            "dk4Name": "Desierto Cromático.",
+            "dk4Text": "Los demás personajes ya no pueden percibirte",
+            "dk5Name": "Señal de Blanco Puro.",
+            "dk5Text": "Pierdes tu conexión con el mundo. El personaje se retira"
+        },
+        "Advancements": {
+            "IncreaseStat": "Aumenta una estadística en 1 (máx. 3)",
+            "ExtraMove": "Elige un movimiento adicional",
+            "WriteMove": "Escribe tu propio movimiento para tu personaje",
+            "ClearCorner": "Borra todas las marcas de «Tu Rincón de la Casa»"
+        },
+        "Corner": {
+            "Add": "Añadir objeto",
+            "Cross": "Tachar",
+            "Remove": "Eliminar",
+            "Placeholder": "Objeto...",
+            "Empty": "Vacío — añade objetos con el botón +"
+        },
+        "DawnQuestions": {
+            "Hint": "La primera siempre está marcada. La segunda se marca al desbloquearse. Marca dos más.",
+            "dq1": "¿Encontraron los niños de la llave la respuesta a uno de los misterios?",
+            "dq2": "¿Recibiste una Señal del Otro Lado?",
+            "dq2Locked": "(Bloqueada hasta que se marque el Arco de Arenisca)",
+            "dq3": "¿Compartiste un buen recuerdo de tu infancia?",
+            "dq4": "¿Fuiste vulnerable con alguien?",
+            "dq5": "¿Hiciste algo especial para reconectar con Deep Lake?",
+            "dq6": "¿Pronunciaste un monólogo escalofriante sobre algo que te ocurrió en el pasado?",
+            "dq7": "¿Te dejaste llevar al menos una vez?"
+        },
+        "Moves": {
+            "Add": "Añadir movimiento",
+            "Edit": "Editar",
+            "Delete": "Eliminar",
+            "Empty": "Aún no hay movimientos."
+        },
+        "Notes": {
+            "Placeholder": "Escribe tus pensamientos..."
+        },
+        "MoveSheet": {
+            "NamePlaceholder": "Nombre del movimiento",
+            "DescriptionPlaceholder": "Describe lo que hace este movimiento..."
+        },
+        "Item": {
+            "NewCornerItem": "Nuevo objeto",
+            "NewMove": "Nuevo movimiento"
+        },
+        "Signature": "lo olvidado te encontrará"
+    }
+}

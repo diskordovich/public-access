@@ -1,0 +1,131 @@
+{
+    "TYPES": {
+        "Actor": {
+            "player": "Giocatore",
+            "mystery": "Mistero"
+        },
+        "Item": {
+            "moves": "Mossa",
+            "corner_item": "Oggetto dell'angolo della casa"
+        }
+    },
+    "PUBLIC_ACCESS": {
+        "SheetLabels": {
+            "Player": "Scheda giocatore di Public Access",
+            "Move": "Scheda mossa di Public Access"
+        },
+        "Nav": {
+            "Home": "Home",
+            "Characters": "Personaggi",
+            "ViewProfile": "Visualizzazione profilo",
+            "Compendium": "Compendio",
+            "Move": "Mossa"
+        },
+        "Header": {
+            "CharacterNamePlaceholder": "Nome del personaggio",
+            "UserTitle": "bambino con la chiave",
+            "Online": "ONLINE",
+            "PostedToday": "Pubblicato: oggi alle ???"
+        },
+        "Fields": {
+            "Species": "Specie",
+            "Style": "Stile"
+        },
+        "Tabs": {
+            "Character": "Personaggio",
+            "Notes": "Note"
+        },
+        "Sections": {
+            "Stats": "STATISTICHE",
+            "TakesYouBack": "TI RIPORTA INDIETRO",
+            "Conditions": "CONDIZIONI",
+            "KeyOfChild": "CHIAVE DEL BAMBINO",
+            "DesolationKey": "CHIAVE DELLA DESOLAZIONE",
+            "XP": "PX",
+            "Advancements": "AVANZAMENTI",
+            "Corner": "IL TUO ANGOLO DELLA CASA",
+            "DawnQuestions": "DOMANDE DELL'ALBA",
+            "Moves": "MOSSE",
+            "Notes": "NOTE",
+            "Description": "DESCRIZIONE"
+        },
+        "Stats": {
+            "Vitality": "Vitalità",
+            "Composure": "Autocontrollo",
+            "Reason": "Ragione",
+            "Presence": "Presenza",
+            "Sensitivity": "Sensibilità",
+            "RollHint": "Clic: 2d6+statistica | Maiusc: vantaggio (3d6kh2) | Ctrl: svantaggio (3d6kl2)"
+        },
+        "Roll": {
+            "Advantage": "vantaggio",
+            "Disadvantage": "svantaggio"
+        },
+        "TakesYouBack": {
+            "Placeholder": "Ricordo..."
+        },
+        "KeyOfChild": {
+            "kc1": "Un flashback di quando tornavi a casa a piedi da scuola",
+            "kc2": "Un flashback di quando eri un emarginato tra i tuoi coetanei",
+            "kc3": "Un flashback del momento in cui hai capito che i tuoi genitori non erano perfetti",
+            "kc4": "Un flashback di un momento di pura gioia infantile",
+            "kc5": "Un flashback di un trauma infantile che hai vissuto",
+            "kc6": "Un flashback del momento in cui hai capito che l'infanzia non sarebbe durata per sempre",
+            "kc7": "Un flashback della prima volta che hai saputo di TV Odyssey"
+        },
+        "DesolationKey": {
+            "dk1Name": "Arco di Arenaria.",
+            "dk1Text": "Sblocca la domanda di fine sessione: «Hai ricevuto un Segnale dall'Altro Lato?»",
+            "dk2Name": "Pozzo senza Fondo.",
+            "dk2Text": "Ragione −1, Sensibilità +1",
+            "dk3Name": "Monolite Errante.",
+            "dk3Text": "Ora puoi metterti in cerca del Grande Uomo",
+            "dk4Name": "Deserto Cromatico.",
+            "dk4Text": "Gli altri personaggi non possono più percepirti",
+            "dk5Name": "Segnale di un Bianco Puro.",
+            "dk5Text": "Perdi il tuo legame con il mondo. Il personaggio si ritira"
+        },
+        "Advancements": {
+            "IncreaseStat": "Aumenta una statistica di 1 (max 3)",
+            "ExtraMove": "Scegli una mossa aggiuntiva",
+            "WriteMove": "Scrivi una mossa tutta tua per il tuo personaggio",
+            "ClearCorner": "Cancella tutti i segni in «Il Tuo Angolo della Casa»"
+        },
+        "Corner": {
+            "Add": "Aggiungi oggetto",
+            "Cross": "Depenna",
+            "Remove": "Rimuovi",
+            "Placeholder": "Oggetto...",
+            "Empty": "Vuoto — aggiungi oggetti con il pulsante +"
+        },
+        "DawnQuestions": {
+            "Hint": "La prima è sempre segnata. La seconda si segna una volta sbloccata. Segnane altre due.",
+            "dq1": "I bambini con la chiave hanno trovato la risposta a uno dei misteri?",
+            "dq2": "Hai ricevuto un Segnale dall'Altro Lato?",
+            "dq2Locked": "(Bloccata finché l'Arco di Arenaria non è segnato)",
+            "dq3": "Hai condiviso un bel ricordo della tua infanzia?",
+            "dq4": "Sei stato vulnerabile con qualcuno?",
+            "dq5": "Hai fatto qualcosa di speciale per ritrovare il legame con Deep Lake?",
+            "dq6": "Hai recitato un monologo agghiacciante su qualcosa che ti è successo in passato?",
+            "dq7": "Ti sei lasciato andare almeno una volta?"
+        },
+        "Moves": {
+            "Add": "Aggiungi mossa",
+            "Edit": "Modifica",
+            "Delete": "Elimina",
+            "Empty": "Ancora nessuna mossa."
+        },
+        "Notes": {
+            "Placeholder": "Annota i tuoi pensieri..."
+        },
+        "MoveSheet": {
+            "NamePlaceholder": "Nome della mossa",
+            "DescriptionPlaceholder": "Descrivi cosa fa questa mossa..."
+        },
+        "Item": {
+            "NewCornerItem": "Nuovo oggetto",
+            "NewMove": "Nuova mossa"
+        },
+        "Signature": "ciò che è stato dimenticato ti troverà"
+    }
+}

@@ -1,0 +1,131 @@
+{
+    "TYPES": {
+        "Actor": {
+            "player": "Pelaaja",
+            "mystery": "Mysteeri"
+        },
+        "Item": {
+            "moves": "Siirto",
+            "corner_item": "Talon nurkan esine"
+        }
+    },
+    "PUBLIC_ACCESS": {
+        "SheetLabels": {
+            "Player": "Public Access -pelaajalomake",
+            "Move": "Public Access -siirtolomake"
+        },
+        "Nav": {
+            "Home": "Etusivu",
+            "Characters": "Hahmot",
+            "ViewProfile": "Profiilin katselu",
+            "Compendium": "Kokoelma",
+            "Move": "Siirto"
+        },
+        "Header": {
+            "CharacterNamePlaceholder": "Hahmon nimi",
+            "UserTitle": "avainlapsi",
+            "Online": "PAIKALLA",
+            "PostedToday": "Lähetetty: Tänään klo ???"
+        },
+        "Fields": {
+            "Species": "Laji",
+            "Style": "Tyyli"
+        },
+        "Tabs": {
+            "Character": "Hahmo",
+            "Notes": "Muistiinpanot"
+        },
+        "Sections": {
+            "Stats": "OMINAISUUDET",
+            "TakesYouBack": "SE VIE SINUT TAKAISIN",
+            "Conditions": "TILAT",
+            "KeyOfChild": "LAPSEN AVAIN",
+            "DesolationKey": "AUTIUDEN AVAIN",
+            "XP": "XP",
+            "Advancements": "KEHITYKSET",
+            "Corner": "SINUN NURKKASI TALOSTA",
+            "DawnQuestions": "AAMUNKOITON KYSYMYKSET",
+            "Moves": "SIIRROT",
+            "Notes": "MUISTIINPANOT",
+            "Description": "KUVAUS"
+        },
+        "Stats": {
+            "Vitality": "Elinvoima",
+            "Composure": "Maltti",
+            "Reason": "Järki",
+            "Presence": "Läsnäolo",
+            "Sensitivity": "Herkkyys",
+            "RollHint": "Klikkaus: 2d6+ominaisuus | Shift: etu (3d6kh2) | Ctrl: haitta (3d6kl2)"
+        },
+        "Roll": {
+            "Advantage": "etu",
+            "Disadvantage": "haitta"
+        },
+        "TakesYouBack": {
+            "Placeholder": "Muisto..."
+        },
+        "KeyOfChild": {
+            "kc1": "Takauma kotimatkasta koulusta",
+            "kc2": "Takauma ulkopuolisuudesta ikätovereidesi joukossa",
+            "kc3": "Takauma hetkestä, jolloin tajusit, etteivät vanhempasi olleet täydellisiä",
+            "kc4": "Takauma puhtaan lapsuudenilon hetkestä",
+            "kc5": "Takauma lapsuuden traumasta, jonka elit läpi",
+            "kc6": "Takauma hetkestä, jolloin tajusit, ettei lapsuus kestäisi ikuisesti",
+            "kc7": "Takauma ensimmäisestä kerrasta, kun kuulit TV Odysseystä"
+        },
+        "DesolationKey": {
+            "dk1Name": "Hiekkakivikaari.",
+            "dk1Text": "Avaa istunnon lopun kysymyksen: ”Saitko Signaalin Toiselta Puolelta?”",
+            "dk2Name": "Pohjaton Kaivo.",
+            "dk2Text": "Järki −1, Herkkyys +1",
+            "dk3Name": "Vaeltava Monoliitti.",
+            "dk3Text": "Voit nyt lähteä etsimään Isoa Miestä",
+            "dk4Name": "Kromaattinen Autiomaa.",
+            "dk4Text": "Muut hahmot eivät enää havaitse sinua",
+            "dk5Name": "Puhtaanvalkoinen Signaali.",
+            "dk5Text": "Menetät yhteytesi maailmaan. Hahmo jää eläkkeelle"
+        },
+        "Advancements": {
+            "IncreaseStat": "Kasvata yhtä ominaisuutta 1:llä (enint. 3)",
+            "ExtraMove": "Valitse ylimääräinen siirto",
+            "WriteMove": "Kirjoita hahmollesi oma siirto",
+            "ClearCorner": "Tyhjennä kaikki merkinnät kohdasta ”Sinun Nurkkasi Talosta”"
+        },
+        "Corner": {
+            "Add": "Lisää esine",
+            "Cross": "Yliviivaa",
+            "Remove": "Poista",
+            "Placeholder": "Esine...",
+            "Empty": "Tyhjä — lisää esineitä +-painikkeella"
+        },
+        "DawnQuestions": {
+            "Hint": "Ensimmäinen on aina merkitty. Toinen merkitään, kun se on avattu. Merkitse kaksi lisää.",
+            "dq1": "Löysivätkö avainlapset vastauksen johonkin mysteereistä?",
+            "dq2": "Saitko Signaalin Toiselta Puolelta?",
+            "dq2Locked": "(Lukittu, kunnes Hiekkakivikaari on merkitty)",
+            "dq3": "Jaoitko hyvän muiston lapsuudestasi?",
+            "dq4": "Olitko haavoittuvainen jonkun kanssa?",
+            "dq5": "Teitkö jotain erityistä palauttaaksesi yhteytesi Deep Lakeen?",
+            "dq6": "Piditkö hyytävän monologin jostakin, mitä sinulle tapahtui menneisyydessä?",
+            "dq7": "Annoitko itsesi riehaantua ainakin kerran?"
+        },
+        "Moves": {
+            "Add": "Lisää siirto",
+            "Edit": "Muokkaa",
+            "Delete": "Poista",
+            "Empty": "Ei vielä siirtoja."
+        },
+        "Notes": {
+            "Placeholder": "Kirjoita ajatuksesi ylös..."
+        },
+        "MoveSheet": {
+            "NamePlaceholder": "Siirron nimi",
+            "DescriptionPlaceholder": "Kuvaile, mitä tämä siirto tekee..."
+        },
+        "Item": {
+            "NewCornerItem": "Uusi esine",
+            "NewMove": "Uusi siirto"
+        },
+        "Signature": "unohdettu löytää sinut"
+    }
+}

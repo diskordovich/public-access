@@ -1,0 +1,131 @@
+{
+    "TYPES": {
+        "Actor": {
+            "player": "Spelare",
+            "mystery": "Mysterium"
+        },
+        "Item": {
+            "moves": "Drag",
+            "corner_item": "Föremål från husets hörn"
+        }
+    },
+    "PUBLIC_ACCESS": {
+        "SheetLabels": {
+            "Player": "Public Access-rollformulär",
+            "Move": "Public Access-dragformulär"
+        },
+        "Nav": {
+            "Home": "Hem",
+            "Characters": "Rollpersoner",
+            "ViewProfile": "Visar profil",
+            "Compendium": "Kompendium",
+            "Move": "Drag"
+        },
+        "Header": {
+            "CharacterNamePlaceholder": "Rollpersonens namn",
+            "UserTitle": "nyckelbarn",
+            "Online": "ONLINE",
+            "PostedToday": "Postat: Idag kl. ???"
+        },
+        "Fields": {
+            "Species": "Art",
+            "Style": "Stil"
+        },
+        "Tabs": {
+            "Character": "Rollperson",
+            "Notes": "Anteckningar"
+        },
+        "Sections": {
+            "Stats": "GRUNDEGENSKAPER",
+            "TakesYouBack": "DET TAR DIG TILLBAKA",
+            "Conditions": "TILLSTÅND",
+            "KeyOfChild": "BARNETS NYCKEL",
+            "DesolationKey": "ÖDSLIGHETENS NYCKEL",
+            "XP": "XP",
+            "Advancements": "FÖRBÄTTRINGAR",
+            "Corner": "DITT HÖRN AV HUSET",
+            "DawnQuestions": "GRYNINGSFRÅGOR",
+            "Moves": "DRAG",
+            "Notes": "ANTECKNINGAR",
+            "Description": "BESKRIVNING"
+        },
+        "Stats": {
+            "Vitality": "Vitalitet",
+            "Composure": "Fattning",
+            "Reason": "Förnuft",
+            "Presence": "Närvaro",
+            "Sensitivity": "Känslighet",
+            "RollHint": "Klick: 2d6+egenskap | Skift: fördel (3d6kh2) | Ctrl: nackdel (3d6kl2)"
+        },
+        "Roll": {
+            "Advantage": "fördel",
+            "Disadvantage": "nackdel"
+        },
+        "TakesYouBack": {
+            "Placeholder": "Minne..."
+        },
+        "KeyOfChild": {
+            "kc1": "En tillbakablick på promenaden hem från skolan",
+            "kc2": "En tillbakablick på att stå utanför bland dina jämnåriga",
+            "kc3": "En tillbakablick på ögonblicket då du insåg att dina föräldrar inte var perfekta",
+            "kc4": "En tillbakablick på ett ögonblick av ren barnslig glädje",
+            "kc5": "En tillbakablick på ett barndomstrauma du genomlevde",
+            "kc6": "En tillbakablick på ögonblicket då du insåg att barndomen inte skulle vara för evigt",
+            "kc7": "En tillbakablick på första gången du fick höra talas om TV Odyssey"
+        },
+        "DesolationKey": {
+            "dk1Name": "Sandstensvalvet.",
+            "dk1Text": "Låser upp frågan vid sessionens slut: ”Tog du emot en Signal från Andra Sidan?”",
+            "dk2Name": "Den Bottenlösa Brunnen.",
+            "dk2Text": "Förnuft −1, Känslighet +1",
+            "dk3Name": "Den Vandrande Monoliten.",
+            "dk3Text": "Du kan nu söka upp den Store Mannen",
+            "dk4Name": "Den Kromatiska Öknen.",
+            "dk4Text": "Andra rollpersoner kan inte längre uppfatta dig",
+            "dk5Name": "Den Rentvita Signalen.",
+            "dk5Text": "Du förlorar din koppling till världen. Rollpersonen går i pension"
+        },
+        "Advancements": {
+            "IncreaseStat": "Öka en grundegenskap med 1 (max 3)",
+            "ExtraMove": "Välj ett extra drag",
+            "WriteMove": "Skriv ett eget drag för din rollperson",
+            "ClearCorner": "Rensa alla markeringar i ”Ditt Hörn av Huset”"
+        },
+        "Corner": {
+            "Add": "Lägg till föremål",
+            "Cross": "Stryk över",
+            "Remove": "Ta bort",
+            "Placeholder": "Föremål...",
+            "Empty": "Tomt — lägg till föremål med +-knappen"
+        },
+        "DawnQuestions": {
+            "Hint": "Den första är alltid markerad. Den andra markeras när den låsts upp. Markera två till.",
+            "dq1": "Hittade nyckelbarnen svaret på ett av mysterierna?",
+            "dq2": "Tog du emot en Signal från Andra Sidan?",
+            "dq2Locked": "(Låst tills Sandstensvalvet är markerat)",
+            "dq3": "Delade du med dig av ett gott minne från din barndom?",
+            "dq4": "Var du sårbar inför någon?",
+            "dq5": "Gjorde du något särskilt för att återknyta till Deep Lake?",
+            "dq6": "Höll du en isande monolog om något som hänt dig i det förflutna?",
+            "dq7": "Lät du dig själv släppa loss minst en gång?"
+        },
+        "Moves": {
+            "Add": "Lägg till drag",
+            "Edit": "Redigera",
+            "Delete": "Ta bort",
+            "Empty": "Inga drag ännu."
+        },
+        "Notes": {
+            "Placeholder": "Skriv ner dina tankar..."
+        },
+        "MoveSheet": {
+            "NamePlaceholder": "Dragets namn",
+            "DescriptionPlaceholder": "Beskriv vad detta drag gör..."
+        },
+        "Item": {
+            "NewCornerItem": "Nytt föremål",
+            "NewMove": "Nytt drag"
+        },
+        "Signature": "det bortglömda kommer att hitta dig"
+    }
+}

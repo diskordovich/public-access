@@ -1,0 +1,131 @@
+{
+    "TYPES": {
+        "Actor": {
+            "player": "プレイヤー",
+            "mystery": "謎"
+        },
+        "Item": {
+            "moves": "ムーブ",
+            "corner_item": "家の隅のアイテム"
+        }
+    },
+    "PUBLIC_ACCESS": {
+        "SheetLabels": {
+            "Player": "Public Access プレイヤーシート",
+            "Move": "Public Access ムーブシート"
+        },
+        "Nav": {
+            "Home": "ホーム",
+            "Characters": "キャラクター",
+            "ViewProfile": "プロフィール閲覧中",
+            "Compendium": "コンペンディウム",
+            "Move": "ムーブ"
+        },
+        "Header": {
+            "CharacterNamePlaceholder": "キャラクター名",
+            "UserTitle": "鍵っ子",
+            "Online": "オンライン",
+            "PostedToday": "投稿：今日 ???"
+        },
+        "Fields": {
+            "Species": "種族",
+            "Style": "スタイル"
+        },
+        "Tabs": {
+            "Character": "キャラクター",
+            "Notes": "メモ"
+        },
+        "Sections": {
+            "Stats": "能力値",
+            "TakesYouBack": "あの頃へ連れ戻すもの",
+            "Conditions": "状態",
+            "KeyOfChild": "子供の鍵",
+            "DesolationKey": "荒廃の鍵",
+            "XP": "経験値",
+            "Advancements": "成長",
+            "Corner": "あなたの家の隅",
+            "DawnQuestions": "夜明けの質問",
+            "Moves": "ムーブ",
+            "Notes": "メモ",
+            "Description": "説明"
+        },
+        "Stats": {
+            "Vitality": "活力",
+            "Composure": "冷静",
+            "Reason": "理性",
+            "Presence": "存在感",
+            "Sensitivity": "感受性",
+            "RollHint": "クリック: 2d6+能力値 | Shift: 有利 (3d6kh2) | Ctrl: 不利 (3d6kl2)"
+        },
+        "Roll": {
+            "Advantage": "有利",
+            "Disadvantage": "不利"
+        },
+        "TakesYouBack": {
+            "Placeholder": "思い出..."
+        },
+        "KeyOfChild": {
+            "kc1": "学校から歩いて帰った日のフラッシュバック",
+            "kc2": "同年代の中でよそ者だった頃のフラッシュバック",
+            "kc3": "両親が完璧ではないと気づいた瞬間のフラッシュバック",
+            "kc4": "純粋な子供時代の喜びの瞬間のフラッシュバック",
+            "kc5": "生き延びた子供時代のトラウマのフラッシュバック",
+            "kc6": "子供時代が永遠には続かないと悟った瞬間のフラッシュバック",
+            "kc7": "初めてTV Odysseyを知ったときのフラッシュバック"
+        },
+        "DesolationKey": {
+            "dk1Name": "砂岩のアーチ。",
+            "dk1Text": "セッション終了時の質問を解放する：「向こう側からのシグナルを受け取ったか？」",
+            "dk2Name": "底なしの井戸。",
+            "dk2Text": "理性 −1、感受性 +1",
+            "dk3Name": "さまようモノリス。",
+            "dk3Text": "ビッグマンを探しに行けるようになる",
+            "dk4Name": "色彩の砂漠。",
+            "dk4Text": "他のキャラクターはもうあなたを知覚できない",
+            "dk5Name": "純白のシグナル。",
+            "dk5Text": "世界とのつながりを失う。キャラクターは引退する"
+        },
+        "Advancements": {
+            "IncreaseStat": "能力値を1上げる（最大3）",
+            "ExtraMove": "追加のムーブを選ぶ",
+            "WriteMove": "自分のキャラクターのためにムーブを自作する",
+            "ClearCorner": "「あなたの家の隅」のマークをすべて消す"
+        },
+        "Corner": {
+            "Add": "アイテムを追加",
+            "Cross": "横線で消す",
+            "Remove": "削除",
+            "Placeholder": "アイテム...",
+            "Empty": "空です — +ボタンでアイテムを追加"
+        },
+        "DawnQuestions": {
+            "Hint": "1つ目は常にマークされる。2つ目は解放後にマークされる。さらに2つマークすること。",
+            "dq1": "鍵っ子たちは謎のひとつの答えを見つけたか？",
+            "dq2": "向こう側からのシグナルを受け取ったか？",
+            "dq2Locked": "（砂岩のアーチがマークされるまでロック）",
+            "dq3": "子供時代の良い思い出を分かち合ったか？",
+            "dq4": "誰かに弱さを見せたか？",
+            "dq5": "ディープレイクとの絆を取り戻すために特別なことをしたか？",
+            "dq6": "過去に自分へ起きた出来事について、ぞっとするモノローグを語ったか？",
+            "dq7": "少なくとも一度は羽目を外したか？"
+        },
+        "Moves": {
+            "Add": "ムーブを追加",
+            "Edit": "編集",
+            "Delete": "削除",
+            "Empty": "まだムーブはありません。"
+        },
+        "Notes": {
+            "Placeholder": "考えを書き留めよう..."
+        },
+        "MoveSheet": {
+            "NamePlaceholder": "ムーブ名",
+            "DescriptionPlaceholder": "このムーブの効果を説明..."
+        },
+        "Item": {
+            "NewCornerItem": "新しいアイテム",
+            "NewMove": "新しいムーブ"
+        },
+        "Signature": "忘れられたものがあなたを見つける"
+    }
+}

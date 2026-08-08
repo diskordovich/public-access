@@ -1,0 +1,131 @@
+{
+    "TYPES": {
+        "Actor": {
+            "player": "玩家",
+            "mystery": "谜团"
+        },
+        "Item": {
+            "moves": "行动",
+            "corner_item": "屋角物品"
+        }
+    },
+    "PUBLIC_ACCESS": {
+        "SheetLabels": {
+            "Player": "Public Access 玩家角色卡",
+            "Move": "Public Access 行动卡"
+        },
+        "Nav": {
+            "Home": "主页",
+            "Characters": "角色",
+            "ViewProfile": "正在查看资料",
+            "Compendium": "合集",
+            "Move": "行动"
+        },
+        "Header": {
+            "CharacterNamePlaceholder": "角色名称",
+            "UserTitle": "钥匙儿童",
+            "Online": "在线",
+            "PostedToday": "发布于：今天 ???"
+        },
+        "Fields": {
+            "Species": "物种",
+            "Style": "风格"
+        },
+        "Tabs": {
+            "Character": "角色",
+            "Notes": "笔记"
+        },
+        "Sections": {
+            "Stats": "属性",
+            "TakesYouBack": "带你回到过去",
+            "Conditions": "状态",
+            "KeyOfChild": "孩童之钥",
+            "DesolationKey": "荒芜之钥",
+            "XP": "经验值",
+            "Advancements": "成长",
+            "Corner": "你的屋角",
+            "DawnQuestions": "黎明问题",
+            "Moves": "行动",
+            "Notes": "笔记",
+            "Description": "描述"
+        },
+        "Stats": {
+            "Vitality": "活力",
+            "Composure": "沉着",
+            "Reason": "理智",
+            "Presence": "存在感",
+            "Sensitivity": "敏感度",
+            "RollHint": "点击：2d6+属性 | Shift：优势 (3d6kh2) | Ctrl：劣势 (3d6kl2)"
+        },
+        "Roll": {
+            "Advantage": "优势",
+            "Disadvantage": "劣势"
+        },
+        "TakesYouBack": {
+            "Placeholder": "回忆..."
+        },
+        "KeyOfChild": {
+            "kc1": "关于放学走路回家的闪回",
+            "kc2": "关于在同龄人中格格不入的闪回",
+            "kc3": "关于你意识到父母并不完美的那一刻的闪回",
+            "kc4": "关于纯粹童年快乐时刻的闪回",
+            "kc5": "关于你经历过的童年创伤的闪回",
+            "kc6": "关于你意识到童年不会永远持续的那一刻的闪回",
+            "kc7": "关于你第一次得知 TV Odyssey 的闪回"
+        },
+        "DesolationKey": {
+            "dk1Name": "砂岩拱门。",
+            "dk1Text": "解锁会话结束时的问题：“你是否收到了来自另一边的信号？”",
+            "dk2Name": "无底之井。",
+            "dk2Text": "理智 −1，敏感度 +1",
+            "dk3Name": "游荡的巨石。",
+            "dk3Text": "你现在可以去寻找大个子男人",
+            "dk4Name": "彩色沙漠。",
+            "dk4Text": "其他角色再也无法感知到你",
+            "dk5Name": "纯白信号。",
+            "dk5Text": "你失去了与世界的联系。该角色退场"
+        },
+        "Advancements": {
+            "IncreaseStat": "将一项属性提高 1（最高 3）",
+            "ExtraMove": "选择一个额外行动",
+            "WriteMove": "为你的角色自创一个行动",
+            "ClearCorner": "清除“你的屋角”中的所有标记"
+        },
+        "Corner": {
+            "Add": "添加物品",
+            "Cross": "划掉",
+            "Remove": "移除",
+            "Placeholder": "物品...",
+            "Empty": "空空如也 — 用 + 按钮添加物品"
+        },
+        "DawnQuestions": {
+            "Hint": "第一个问题始终被标记。第二个在解锁后标记。再标记两个。",
+            "dq1": "钥匙儿童们是否找到了其中一个谜团的答案？",
+            "dq2": "你是否收到了来自另一边的信号？",
+            "dq2Locked": "（在砂岩拱门被标记前锁定）",
+            "dq3": "你是否分享了一段童年的美好回忆？",
+            "dq4": "你是否向某人展现了脆弱？",
+            "dq5": "你是否做了什么特别的事来与深湖重新建立联系？",
+            "dq6": "你是否就过去发生在你身上的事发表了一段令人毛骨悚然的独白？",
+            "dq7": "你是否至少放纵了自己一次？"
+        },
+        "Moves": {
+            "Add": "添加行动",
+            "Edit": "编辑",
+            "Delete": "删除",
+            "Empty": "还没有行动。"
+        },
+        "Notes": {
+            "Placeholder": "写下你的想法..."
+        },
+        "MoveSheet": {
+            "NamePlaceholder": "行动名称",
+            "DescriptionPlaceholder": "描述这个行动的效果..."
+        },
+        "Item": {
+            "NewCornerItem": "新物品",
+            "NewMove": "新行动"
+        },
+        "Signature": "被遗忘之物会找到你"
+    }
+}
