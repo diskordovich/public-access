@@ -5,7 +5,7 @@
             "mystery": "Mistero"
         },
         "Item": {
-            "moves": "Mossa",
+            "moves": "Mossa da bambino con la chiave",
             "corner_item": "Oggetto dell'angolo della casa"
         }
     },
@@ -36,16 +36,16 @@
             "Notes": "Note"
         },
         "Sections": {
-            "Stats": "STATISTICHE",
+            "Stats": "ABILITÀ",
             "TakesYouBack": "TI RIPORTA INDIETRO",
             "Conditions": "CONDIZIONI",
-            "KeyOfChild": "CHIAVE DEL BAMBINO",
-            "DesolationKey": "CHIAVE DELLA DESOLAZIONE",
-            "XP": "PX",
+            "KeyOfChild": "LA CHIAVE DEL BAMBINO",
+            "DesolationKey": "LA CHIAVE DELLA DESOLAZIONE",
+            "XP": "TRACCIATO PX",
             "Advancements": "AVANZAMENTI",
             "Corner": "IL TUO ANGOLO DELLA CASA",
             "DawnQuestions": "DOMANDE DELL'ALBA",
-            "Moves": "MOSSE",
+            "Moves": "MOSSE DA BAMBINO CON LA CHIAVE",
             "Notes": "NOTE",
             "Description": "DESCRIZIONE"
         },
@@ -55,7 +55,7 @@
             "Reason": "Ragione",
             "Presence": "Presenza",
             "Sensitivity": "Sensibilità",
-            "RollHint": "Clic: 2d6+statistica | Maiusc: vantaggio (3d6kh2) | Ctrl: svantaggio (3d6kl2)"
+            "RollHint": "Clic: 2d6+abilità | Maiusc: vantaggio (3d6kh2) | Ctrl: svantaggio (3d6kl2)"
         },
         "Roll": {
             "Advantage": "vantaggio",
@@ -65,31 +65,31 @@
             "Placeholder": "Ricordo..."
         },
         "KeyOfChild": {
-            "kc1": "Un flashback di quando tornavi a casa a piedi da scuola",
-            "kc2": "Un flashback di quando eri un emarginato tra i tuoi coetanei",
-            "kc3": "Un flashback del momento in cui hai capito che i tuoi genitori non erano perfetti",
-            "kc4": "Un flashback di un momento di pura gioia infantile",
-            "kc5": "Un flashback di un trauma infantile che hai vissuto",
-            "kc6": "Un flashback del momento in cui hai capito che l'infanzia non sarebbe durata per sempre",
-            "kc7": "Un flashback della prima volta che hai saputo di TV Odyssey"
+            "kc1": "Un flashback che mostra la tua routine di bambino con la chiave ogni volta che tornavi a casa da scuola.",
+            "kc2": "Un flashback che mostra come eri un emarginato tra i tuoi compagni di scuola.",
+            "kc3": "Un flashback del momento in cui hai capito che i tuoi genitori erano imperfetti.",
+            "kc4": "Un flashback di quando hai provato felicità autentica da bambino.",
+            "kc5": "Un flashback di quando hai vissuto un trauma infantile.",
+            "kc6": "Un flashback del momento in cui hai capito che l'infanzia non era per sempre.",
+            "kc7": "Un flashback della prima volta che hai scoperto TV Odyssey."
         },
         "DesolationKey": {
-            "dk1Name": "Arco di Arenaria.",
-            "dk1Text": "Sblocca la domanda di fine sessione: «Hai ricevuto un Segnale dall'Altro Lato?»",
-            "dk2Name": "Pozzo senza Fondo.",
-            "dk2Text": "Ragione −1, Sensibilità +1",
-            "dk3Name": "Monolite Errante.",
-            "dk3Text": "Ora puoi metterti in cerca del Grande Uomo",
-            "dk4Name": "Deserto Cromatico.",
-            "dk4Text": "Gli altri personaggi non possono più percepirti",
-            "dk5Name": "Segnale di un Bianco Puro.",
-            "dk5Text": "Perdi il tuo legame con il mondo. Il personaggio si ritira"
+            "dk1Name": "L'Arco di Arenaria.",
+            "dk1Text": "Sblocca la domanda di Fine Sessione: «Hai ricevuto un Segnale dall'Altro Lato?»",
+            "dk2Name": "Il Pozzo Insondabile.",
+            "dk2Text": "Il tuo modificatore di Ragione è ridotto di 1 e il tuo modificatore di Sensibilità è aumentato di 1.",
+            "dk3Name": "Il Monolite Errante.",
+            "dk3Text": "Ora puoi metterti in cerca del Grande Uomo. Come entri in contatto con lui? Il Grande Uomo può essere consultato come qualsiasi altro Personaggio Secondario. Quando lo fai, tira con Sensibilità. Con 7-9 ottieni 1 Indizio; lo rivelerà in un modo che riflette il suo umore del momento. Con 10+, come sopra, ma ottieni 2 Indizi. Con un fallimento devi segnare la casella successiva de La Chiave della Desolazione.",
+            "dk4Name": "Il Deserto Cromatico.",
+            "dk4Text": "Non puoi più essere percepito dagli altri personaggi e ogni ricordo di te è cancellato — è come se non fossi mai esistito. Puoi continuare a indagare, ma gli Indizi che trovi sono disponibili solo se li narri in una scena di una cassetta di Odyssey.",
+            "dk5Name": "Il Segnale Bianco Puro.",
+            "dk5Text": "Perdi ogni contatto con questo mondo. Di' al Custode di riprodurre una cassetta bianca di Odyssey e poi ritira questo personaggio."
         },
         "Advancements": {
-            "IncreaseStat": "Aumenta una statistica di 1 (max 3)",
-            "ExtraMove": "Scegli una mossa aggiuntiva",
-            "WriteMove": "Scrivi una mossa tutta tua per il tuo personaggio",
-            "ClearCorner": "Cancella tutti i segni in «Il Tuo Angolo della Casa»"
+            "IncreaseStat": "Aumenta un'abilità di 1 (max 3).",
+            "ExtraMove": "Scegli una mossa da bambino con la chiave aggiuntiva.",
+            "WriteMove": "Scrivi una mossa da bambino con la chiave personalizzata per il tuo personaggio.",
+            "ClearCorner": "Togli il segno da tutti gli oggetti in «Il Tuo Angolo della Casa»."
         },
         "Corner": {
             "Add": "Aggiungi oggetto",
@@ -99,15 +99,15 @@
             "Empty": "Vuoto — aggiungi oggetti con il pulsante +"
         },
         "DawnQuestions": {
-            "Hint": "La prima è sempre segnata. La seconda si segna una volta sbloccata. Segnane altre due.",
-            "dq1": "I bambini con la chiave hanno trovato la risposta a uno dei misteri?",
+            "Hint": "La prima è sempre segnata. La seconda è sempre segnata dopo essere stata sbloccata. Segnane altre due.",
+            "dq1": "I bambini con la chiave hanno risolto un mistero?",
             "dq2": "Hai ricevuto un Segnale dall'Altro Lato?",
-            "dq2Locked": "(Bloccata finché l'Arco di Arenaria non è segnato)",
+            "dq2Locked": "(Bloccata finché non segni L'Arco di Arenaria)",
             "dq3": "Hai condiviso un bel ricordo della tua infanzia?",
             "dq4": "Sei stato vulnerabile con qualcuno?",
-            "dq5": "Hai fatto qualcosa di speciale per ritrovare il legame con Deep Lake?",
+            "dq5": "Ti sei dato particolarmente da fare per ritrovare il legame con Deep Lake?",
             "dq6": "Hai recitato un monologo agghiacciante su qualcosa che ti è successo in passato?",
-            "dq7": "Ti sei lasciato andare almeno una volta?"
+            "dq7": "Ti sei lasciato andare per una volta?"
         },
         "Moves": {
             "Add": "Aggiungi mossa",

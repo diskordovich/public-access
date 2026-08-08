@@ -5,7 +5,7 @@
             "mystery": "Mysterium"
         },
         "Item": {
-            "moves": "Spielzug",
+            "moves": "Schlüsselkind-Spielzug",
             "corner_item": "Gegenstand aus der Ecke des Hauses"
         }
     },
@@ -36,16 +36,16 @@
             "Notes": "Notizen"
         },
         "Sections": {
-            "Stats": "WERTE",
+            "Stats": "FÄHIGKEITEN",
             "TakesYouBack": "DAS BRINGT DICH ZURÜCK",
             "Conditions": "ZUSTÄNDE",
-            "KeyOfChild": "SCHLÜSSEL DES KINDES",
-            "DesolationKey": "SCHLÜSSEL DER ÖDNIS",
-            "XP": "EP",
+            "KeyOfChild": "DER SCHLÜSSEL DES KINDES",
+            "DesolationKey": "DER SCHLÜSSEL DER ÖDNIS",
+            "XP": "EP-LEISTE",
             "Advancements": "STEIGERUNGEN",
             "Corner": "DEINE ECKE DES HAUSES",
             "DawnQuestions": "FRAGEN DER MORGENDÄMMERUNG",
-            "Moves": "SPIELZÜGE",
+            "Moves": "SCHLÜSSELKIND-SPIELZÜGE",
             "Notes": "NOTIZEN",
             "Description": "BESCHREIBUNG"
         },
@@ -55,7 +55,7 @@
             "Reason": "Verstand",
             "Presence": "Präsenz",
             "Sensitivity": "Sensibilität",
-            "RollHint": "Klick: 2d6+Wert | Umschalt: Vorteil (3d6kh2) | Strg: Nachteil (3d6kl2)"
+            "RollHint": "Klick: 2d6+Fähigkeit | Umschalt: Vorteil (3d6kh2) | Strg: Nachteil (3d6kl2)"
         },
         "Roll": {
             "Advantage": "Vorteil",
@@ -65,31 +65,31 @@
             "Placeholder": "Erinnerung..."
         },
         "KeyOfChild": {
-            "kc1": "Eine Rückblende an den Heimweg von der Schule",
-            "kc2": "Eine Rückblende daran, ein Außenseiter unter Gleichaltrigen zu sein",
-            "kc3": "Eine Rückblende an den Moment, in dem dir klar wurde, dass deine Eltern nicht perfekt sind",
-            "kc4": "Eine Rückblende an einen Moment reiner Kindheitsfreude",
-            "kc5": "Eine Rückblende an ein Kindheitstrauma, das du durchlebt hast",
-            "kc6": "Eine Rückblende an den Moment, in dem dir klar wurde, dass die Kindheit nicht ewig dauern würde",
-            "kc7": "Eine Rückblende daran, wie du zum ersten Mal von TV Odyssey erfahren hast"
+            "kc1": "Eine Rückblende, die deine Schlüsselkind-Routine zeigt, wann immer du von der Schule nach Hause kamst.",
+            "kc2": "Eine Rückblende, die zeigt, wie du ein Außenseiter unter deinen Mitschülern warst.",
+            "kc3": "Eine Rückblende an den Moment, in dem dir klar wurde, dass deine Eltern nicht perfekt waren.",
+            "kc4": "Eine Rückblende an einen Moment, in dem du als Kind echtes Glück empfunden hast.",
+            "kc5": "Eine Rückblende an einen Moment, in dem du ein Kindheitstrauma erlebt hast.",
+            "kc6": "Eine Rückblende an den Moment, in dem dir klar wurde, dass die Kindheit nicht für immer war.",
+            "kc7": "Eine Rückblende daran, wie du TV Odyssey zum ersten Mal entdeckt hast."
         },
         "DesolationKey": {
-            "dk1Name": "Sandsteinbogen.",
-            "dk1Text": "Schaltet die Frage am Sitzungsende frei: „Hast du ein Signal von der Anderen Seite empfangen?“",
-            "dk2Name": "Bodenloser Brunnen.",
-            "dk2Text": "Verstand −1, Sensibilität +1",
-            "dk3Name": "Wandernder Monolith.",
-            "dk3Text": "Du darfst nun den Großen Mann aufsuchen",
-            "dk4Name": "Chromatische Wüste.",
-            "dk4Text": "Andere Charaktere können dich nicht mehr wahrnehmen",
-            "dk5Name": "Reinweißes Signal.",
-            "dk5Text": "Du verlierst deine Verbindung zur Welt. Der Charakter tritt ab"
+            "dk1Name": "Der Sandsteinbogen.",
+            "dk1Text": "Schalte die Frage zum Sitzungsende frei: „Hast du ein Signal von der Anderen Seite empfangen?“",
+            "dk2Name": "Der Unergründliche Brunnen.",
+            "dk2Text": "Dein Verstand-Modifikator wird um 1 verringert und dein Sensibilität-Modifikator um 1 erhöht.",
+            "dk3Name": "Der Wandernde Monolith.",
+            "dk3Text": "Du kannst nun den Großen Mann aufsuchen. Wie nimmst du Kontakt zu ihm auf? Der Große Mann kann wie jeder andere Nebencharakter befragt werden. Wenn du das tust, würfle mit Sensibilität. Bei 7-9 erhältst du 1 Hinweis; er enthüllt ihn auf eine Weise, die seine aktuelle Stimmung widerspiegelt. Bei 10+ wie oben, aber du erhältst 2 Hinweise. Bei einem Fehlschlag musst du das nächste Kästchen auf Dem Schlüssel der Ödnis markieren.",
+            "dk4Name": "Die Chromatische Wüste.",
+            "dk4Text": "Du kannst von anderen Charakteren nicht mehr wahrgenommen werden und jede Erinnerung an dich ist ausgelöscht — als hättest du nie existiert. Du kannst weiterhin ermitteln, aber die Hinweise, die du findest, sind nur verfügbar, wenn du sie in eine Odyssey-Kassetten-Szene einbaust.",
+            "dk5Name": "Das Reinweiße Signal.",
+            "dk5Text": "Du verlierst jeden Kontakt zu dieser Welt. Sag dem Hüter, er soll eine weiße Odyssey-Kassette abspielen, und ziehe diesen Charakter dann zurück."
         },
         "Advancements": {
-            "IncreaseStat": "Erhöhe einen Wert um 1 (max. 3)",
-            "ExtraMove": "Wähle einen zusätzlichen Spielzug",
-            "WriteMove": "Schreibe einen eigenen Spielzug für deinen Charakter",
-            "ClearCorner": "Entferne alle Markierungen in „Deine Ecke des Hauses“"
+            "IncreaseStat": "Erhöhe eine Fähigkeit um 1 (max. 3).",
+            "ExtraMove": "Wähle einen zusätzlichen Schlüsselkind-Spielzug.",
+            "WriteMove": "Schreibe einen eigenen Schlüsselkind-Spielzug für deinen Charakter.",
+            "ClearCorner": "Entferne die Markierungen von allen Gegenständen in „Deine Ecke des Hauses“."
         },
         "Corner": {
             "Add": "Gegenstand hinzufügen",
@@ -99,15 +99,15 @@
             "Empty": "Leer — füge Gegenstände mit der +-Schaltfläche hinzu"
         },
         "DawnQuestions": {
-            "Hint": "Die erste ist immer markiert. Die zweite wird markiert, sobald sie freigeschaltet ist. Markiere zwei weitere.",
-            "dq1": "Haben die Schlüsselkinder die Antwort auf eines der Mysterien gefunden?",
+            "Hint": "Die erste ist immer markiert. Die zweite ist immer markiert, sobald sie freigeschaltet wurde. Markiere zwei weitere.",
+            "dq1": "Haben die Schlüsselkinder ein Mysterium aufgeklärt?",
             "dq2": "Hast du ein Signal von der Anderen Seite empfangen?",
-            "dq2Locked": "(Gesperrt, bis der Sandsteinbogen markiert ist)",
+            "dq2Locked": "(Gesperrt, bis du den Sandsteinbogen markierst)",
             "dq3": "Hast du eine schöne Erinnerung aus deiner Kindheit geteilt?",
             "dq4": "Hast du dich jemandem gegenüber verletzlich gezeigt?",
-            "dq5": "Hast du etwas Besonderes getan, um dich wieder mit Deep Lake zu verbinden?",
+            "dq5": "Hast du dir besondere Mühe gegeben, dich wieder mit Deep Lake zu verbinden?",
             "dq6": "Hast du einen schaurigen Monolog über etwas gehalten, das dir in der Vergangenheit widerfahren ist?",
-            "dq7": "Hast du dich mindestens einmal richtig gehen lassen?"
+            "dq7": "Hast du dich ausnahmsweise mal gehen lassen?"
         },
         "Moves": {
             "Add": "Spielzug hinzufügen",

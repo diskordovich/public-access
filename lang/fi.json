@@ -5,7 +5,7 @@
             "mystery": "Mysteeri"
         },
         "Item": {
-            "moves": "Siirto",
+            "moves": "Avainlapsen siirto",
             "corner_item": "Talon nurkan esine"
         }
     },
@@ -36,16 +36,16 @@
             "Notes": "Muistiinpanot"
         },
         "Sections": {
-            "Stats": "OMINAISUUDET",
+            "Stats": "KYVYT",
             "TakesYouBack": "SE VIE SINUT TAKAISIN",
             "Conditions": "TILAT",
             "KeyOfChild": "LAPSEN AVAIN",
             "DesolationKey": "AUTIUDEN AVAIN",
-            "XP": "XP",
+            "XP": "XP-MITTARI",
             "Advancements": "KEHITYKSET",
             "Corner": "SINUN NURKKASI TALOSTA",
             "DawnQuestions": "AAMUNKOITON KYSYMYKSET",
-            "Moves": "SIIRROT",
+            "Moves": "AVAINLAPSEN SIIRROT",
             "Notes": "MUISTIINPANOT",
             "Description": "KUVAUS"
         },
@@ -55,7 +55,7 @@
             "Reason": "Järki",
             "Presence": "Läsnäolo",
             "Sensitivity": "Herkkyys",
-            "RollHint": "Klikkaus: 2d6+ominaisuus | Shift: etu (3d6kh2) | Ctrl: haitta (3d6kl2)"
+            "RollHint": "Klikkaus: 2d6+kyky | Shift: etu (3d6kh2) | Ctrl: haitta (3d6kl2)"
         },
         "Roll": {
             "Advantage": "etu",
@@ -65,31 +65,31 @@
             "Placeholder": "Muisto..."
         },
         "KeyOfChild": {
-            "kc1": "Takauma kotimatkasta koulusta",
-            "kc2": "Takauma ulkopuolisuudesta ikätovereidesi joukossa",
-            "kc3": "Takauma hetkestä, jolloin tajusit, etteivät vanhempasi olleet täydellisiä",
-            "kc4": "Takauma puhtaan lapsuudenilon hetkestä",
-            "kc5": "Takauma lapsuuden traumasta, jonka elit läpi",
-            "kc6": "Takauma hetkestä, jolloin tajusit, ettei lapsuus kestäisi ikuisesti",
-            "kc7": "Takauma ensimmäisestä kerrasta, kun kuulit TV Odysseystä"
+            "kc1": "Takauma, joka näyttää avainlapsen rutiinisi aina, kun tulit koulusta kotiin.",
+            "kc2": "Takauma, joka näyttää, miten olit ulkopuolinen koulutovereidesi joukossa.",
+            "kc3": "Takauma hetkestä, jolloin tajusit, etteivät vanhempasi olleet täydellisiä.",
+            "kc4": "Takauma hetkestä, jolloin tunsit aitoa onnea lapsena.",
+            "kc5": "Takauma hetkestä, jolloin koit lapsuuden trauman.",
+            "kc6": "Takauma hetkestä, jolloin tajusit, ettei lapsuus ollut ikuista.",
+            "kc7": "Takauma hetkestä, jolloin löysit TV Odysseyn ensimmäistä kertaa."
         },
         "DesolationKey": {
             "dk1Name": "Hiekkakivikaari.",
-            "dk1Text": "Avaa istunnon lopun kysymyksen: ”Saitko Signaalin Toiselta Puolelta?”",
+            "dk1Text": "Avaa Istunnon Lopun kysymyksen: ”Saitko Signaalin Toiselta Puolelta?”",
             "dk2Name": "Pohjaton Kaivo.",
-            "dk2Text": "Järki −1, Herkkyys +1",
+            "dk2Text": "Järki-muuntimesi pienenee 1:llä ja Herkkyys-muuntimesi kasvaa 1:llä.",
             "dk3Name": "Vaeltava Monoliitti.",
-            "dk3Text": "Voit nyt lähteä etsimään Isoa Miestä",
+            "dk3Text": "Voit nyt lähteä etsimään Isoa Miestä. Miten otat häneen yhteyttä? Isoa Miestä voi konsultoida kuten mitä tahansa Sivuhahmoa. Kun teet niin, heitä Herkkyydellä. Tuloksella 7-9 saat 1 Johtolangan; hän paljastaa sen tavalla, joka heijastaa hänen senhetkistä mielentilaansa. Tuloksella 10+ kuten yllä, mutta saat 2 Johtolankaa. Epäonnistumisella sinun on merkittävä seuraava ruutu Autiuden Avaimesta.",
             "dk4Name": "Kromaattinen Autiomaa.",
-            "dk4Text": "Muut hahmot eivät enää havaitse sinua",
+            "dk4Text": "Muut hahmot eivät voi enää havaita sinua, ja kaikki muistot sinusta on pyyhitty pois — on kuin et olisi koskaan ollut olemassa. Voit yhä jatkaa tutkimuksia, mutta löytämäsi Johtolangat ovat käytettävissä vain, jos kerrot ne osaksi Odyssey-kasettikohtausta.",
             "dk5Name": "Puhtaanvalkoinen Signaali.",
-            "dk5Text": "Menetät yhteytesi maailmaan. Hahmo jää eläkkeelle"
+            "dk5Text": "Menetät kaiken yhteyden tähän maailmaan. Pyydä Vartijaa toistamaan valkoinen Odyssey-kasetti ja poista sitten tämä hahmo pelistä."
         },
         "Advancements": {
-            "IncreaseStat": "Kasvata yhtä ominaisuutta 1:llä (enint. 3)",
-            "ExtraMove": "Valitse ylimääräinen siirto",
-            "WriteMove": "Kirjoita hahmollesi oma siirto",
-            "ClearCorner": "Tyhjennä kaikki merkinnät kohdasta ”Sinun Nurkkasi Talosta”"
+            "IncreaseStat": "Kasvata yhtä kykyä 1:llä (enint. 3).",
+            "ExtraMove": "Valitse ylimääräinen avainlapsen siirto.",
+            "WriteMove": "Kirjoita hahmollesi oma avainlapsen siirto.",
+            "ClearCorner": "Poista merkinnät kaikista esineistä kohdassa ”Sinun Nurkkasi Talosta”."
         },
         "Corner": {
             "Add": "Lisää esine",
@@ -99,15 +99,15 @@
             "Empty": "Tyhjä — lisää esineitä +-painikkeella"
         },
         "DawnQuestions": {
-            "Hint": "Ensimmäinen on aina merkitty. Toinen merkitään, kun se on avattu. Merkitse kaksi lisää.",
-            "dq1": "Löysivätkö avainlapset vastauksen johonkin mysteereistä?",
+            "Hint": "Ensimmäinen on aina merkitty. Toinen on aina merkitty avaamisen jälkeen. Merkitse kaksi lisää.",
+            "dq1": "Ratkaisivatko avainlapset mysteerin?",
             "dq2": "Saitko Signaalin Toiselta Puolelta?",
-            "dq2Locked": "(Lukittu, kunnes Hiekkakivikaari on merkitty)",
+            "dq2Locked": "(Lukittu, kunnes merkitset Hiekkakivikaaren)",
             "dq3": "Jaoitko hyvän muiston lapsuudestasi?",
             "dq4": "Olitko haavoittuvainen jonkun kanssa?",
-            "dq5": "Teitkö jotain erityistä palauttaaksesi yhteytesi Deep Lakeen?",
+            "dq5": "Näitkö erityistä vaivaa palauttaaksesi yhteytesi Deep Lakeen?",
             "dq6": "Piditkö hyytävän monologin jostakin, mitä sinulle tapahtui menneisyydessä?",
-            "dq7": "Annoitko itsesi riehaantua ainakin kerran?"
+            "dq7": "Päästitkö kerrankin irti?"
         },
         "Moves": {
             "Add": "Lisää siirto",

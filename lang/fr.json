@@ -5,7 +5,7 @@
             "mystery": "Mystère"
         },
         "Item": {
-            "moves": "Manœuvre",
+            "moves": "Manœuvre d'enfant à clé",
             "corner_item": "Objet du coin de la maison"
         }
     },
@@ -36,16 +36,16 @@
             "Notes": "Notes"
         },
         "Sections": {
-            "Stats": "CARACTÉRISTIQUES",
+            "Stats": "APTITUDES",
             "TakesYouBack": "ÇA TE RAMÈNE EN ARRIÈRE",
             "Conditions": "ÉTATS",
-            "KeyOfChild": "CLÉ DE L'ENFANT",
-            "DesolationKey": "CLÉ DE LA DÉSOLATION",
-            "XP": "XP",
+            "KeyOfChild": "LA CLÉ DE L'ENFANT",
+            "DesolationKey": "LA CLÉ DE LA DÉSOLATION",
+            "XP": "PISTE D'XP",
             "Advancements": "PROGRESSIONS",
             "Corner": "TON COIN DE LA MAISON",
             "DawnQuestions": "QUESTIONS DE L'AUBE",
-            "Moves": "MANŒUVRES",
+            "Moves": "MANŒUVRES D'ENFANT À CLÉ",
             "Notes": "NOTES",
             "Description": "DESCRIPTION"
         },
@@ -55,7 +55,7 @@
             "Reason": "Raison",
             "Presence": "Présence",
             "Sensitivity": "Sensibilité",
-            "RollHint": "Clic : 2d6+carac | Maj : avantage (3d6kh2) | Ctrl : désavantage (3d6kl2)"
+            "RollHint": "Clic : 2d6+aptitude | Maj : avantage (3d6kh2) | Ctrl : désavantage (3d6kl2)"
         },
         "Roll": {
             "Advantage": "avantage",
@@ -65,31 +65,31 @@
             "Placeholder": "Souvenir..."
         },
         "KeyOfChild": {
-            "kc1": "Un flashback du retour de l'école à pied",
-            "kc2": "Un flashback où tu étais un marginal parmi tes camarades",
-            "kc3": "Un flashback du moment où tu as compris que tes parents n'étaient pas parfaits",
-            "kc4": "Un flashback d'un moment de pure joie enfantine",
-            "kc5": "Un flashback d'un traumatisme d'enfance que tu as vécu",
-            "kc6": "Un flashback du moment où tu as compris que l'enfance ne durerait pas toujours",
-            "kc7": "Un flashback de la première fois où tu as découvert TV Odyssey"
+            "kc1": "Un flashback montrant ta routine d'enfant à clé chaque fois que tu rentrais de l'école.",
+            "kc2": "Un flashback montrant comment tu étais un marginal parmi tes camarades d'école.",
+            "kc3": "Un flashback du moment où tu as compris que tes parents étaient imparfaits.",
+            "kc4": "Un flashback d'un moment où tu as ressenti un bonheur sincère étant enfant.",
+            "kc5": "Un flashback d'un moment où tu as vécu un traumatisme d'enfance.",
+            "kc6": "Un flashback du moment où tu as compris que l'enfance n'était pas éternelle.",
+            "kc7": "Un flashback de la première fois où tu as découvert TV Odyssey."
         },
         "DesolationKey": {
-            "dk1Name": "Arche de Grès.",
-            "dk1Text": "Débloque la question de fin de session : « As-tu reçu un Signal de l'Autre Côté ? »",
-            "dk2Name": "Puits sans Fond.",
-            "dk2Text": "Raison −1, Sensibilité +1",
-            "dk3Name": "Monolithe Errant.",
-            "dk3Text": "Tu peux désormais partir à la recherche du Grand Homme",
-            "dk4Name": "Désert Chromatique.",
-            "dk4Text": "Les autres personnages ne peuvent plus te percevoir",
-            "dk5Name": "Signal d'un Blanc Pur.",
-            "dk5Text": "Tu perds ton lien avec le monde. Le personnage prend sa retraite"
+            "dk1Name": "L'Arche de Grès.",
+            "dk1Text": "Débloque la question de Fin de Session : « As-tu reçu un Signal de l'Autre Côté ? »",
+            "dk2Name": "Le Puits Insondable.",
+            "dk2Text": "Ton modificateur de Raison est réduit de 1 et ton modificateur de Sensibilité est augmenté de 1.",
+            "dk3Name": "Le Monolithe Errant.",
+            "dk3Text": "Tu peux désormais partir à la recherche du Grand Homme. Comment entres-tu en contact avec lui ? Le Grand Homme peut être consulté comme n'importe quel Personnage Secondaire. Quand tu le fais, lance les dés avec Sensibilité. Sur 7-9, tu obtiens 1 Indice ; il le révélera d'une manière qui reflète son humeur du moment. Sur 10+, comme ci-dessus, mais tu obtiens 2 Indices. Sur un échec, tu dois cocher la case suivante de La Clé de la Désolation.",
+            "dk4Name": "Le Désert Chromatique.",
+            "dk4Text": "Tu ne peux plus être perçu par les autres personnages et tout souvenir de toi est effacé — c'est comme si tu n'avais jamais existé. Tu peux continuer à mener des enquêtes, mais les Indices que tu trouves ne sont disponibles que si tu les racontes dans une scène de cassette Odyssey.",
+            "dk5Name": "Le Signal Blanc Pur.",
+            "dk5Text": "Tu perds tout contact avec ce monde. Dis au Gardien de jouer une cassette Odyssey blanche, puis retire ce personnage."
         },
         "Advancements": {
-            "IncreaseStat": "Augmente une caractéristique de 1 (max 3)",
-            "ExtraMove": "Choisis une manœuvre supplémentaire",
-            "WriteMove": "Écris ta propre manœuvre pour ton personnage",
-            "ClearCorner": "Efface toutes les marques de « Ton Coin de la Maison »"
+            "IncreaseStat": "Augmente une aptitude de 1 (max 3).",
+            "ExtraMove": "Choisis une manœuvre d'enfant à clé supplémentaire.",
+            "WriteMove": "Écris une manœuvre d'enfant à clé personnalisée pour ton personnage.",
+            "ClearCorner": "Décoche tous les objets de « Ton Coin de la Maison »."
         },
         "Corner": {
             "Add": "Ajouter un objet",
@@ -99,15 +99,15 @@
             "Empty": "Vide — ajoutez des objets avec le bouton +"
         },
         "DawnQuestions": {
-            "Hint": "La première est toujours cochée. La deuxième se coche une fois débloquée. Cochez-en deux de plus.",
-            "dq1": "Les enfants à clé ont-ils trouvé la réponse à l'un des mystères ?",
+            "Hint": "La première est toujours cochée. La deuxième est toujours cochée une fois débloquée. Cochez-en deux de plus.",
+            "dq1": "Les enfants à clé ont-ils résolu un mystère ?",
             "dq2": "As-tu reçu un Signal de l'Autre Côté ?",
-            "dq2Locked": "(Verrouillée tant que l'Arche de Grès n'est pas cochée)",
+            "dq2Locked": "(Verrouillée tant que tu n'as pas coché L'Arche de Grès)",
             "dq3": "As-tu partagé un bon souvenir de ton enfance ?",
             "dq4": "T'es-tu montré vulnérable avec quelqu'un ?",
-            "dq5": "As-tu fait quelque chose de spécial pour renouer avec Deep Lake ?",
+            "dq5": "As-tu fait un effort particulier pour renouer avec Deep Lake ?",
             "dq6": "As-tu livré un monologue glaçant sur quelque chose qui t'est arrivé par le passé ?",
-            "dq7": "T'es-tu lâché au moins une fois ?"
+            "dq7": "T'es-tu lâché pour une fois ?"
         },
         "Moves": {
             "Add": "Ajouter une manœuvre",

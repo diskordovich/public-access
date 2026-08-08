@@ -5,7 +5,7 @@
             "mystery": "Mysterium"
         },
         "Item": {
-            "moves": "Træk",
+            "moves": "Nøglebarnstræk",
             "corner_item": "Genstand fra husets hjørne"
         }
     },
@@ -36,16 +36,16 @@
             "Notes": "Noter"
         },
         "Sections": {
-            "Stats": "EGENSKABER",
+            "Stats": "EVNER",
             "TakesYouBack": "DET TAGER DIG TILBAGE",
             "Conditions": "TILSTANDE",
             "KeyOfChild": "BARNETS NØGLE",
             "DesolationKey": "FORLADTHEDENS NØGLE",
-            "XP": "XP",
+            "XP": "XP-SPOR",
             "Advancements": "FORBEDRINGER",
             "Corner": "DIT HJØRNE AF HUSET",
             "DawnQuestions": "DAGGRYSPØRGSMÅL",
-            "Moves": "TRÆK",
+            "Moves": "NØGLEBARNSTRÆK",
             "Notes": "NOTER",
             "Description": "BESKRIVELSE"
         },
@@ -55,7 +55,7 @@
             "Reason": "Fornuft",
             "Presence": "Nærvær",
             "Sensitivity": "Følsomhed",
-            "RollHint": "Klik: 2d6+egenskab | Shift: fordel (3d6kh2) | Ctrl: ulempe (3d6kl2)"
+            "RollHint": "Klik: 2d6+evne | Shift: fordel (3d6kh2) | Ctrl: ulempe (3d6kl2)"
         },
         "Roll": {
             "Advantage": "fordel",
@@ -65,31 +65,31 @@
             "Placeholder": "Minde..."
         },
         "KeyOfChild": {
-            "kc1": "Et flashback til at gå hjem fra skole",
-            "kc2": "Et flashback til at stå udenfor blandt dine jævnaldrende",
-            "kc3": "Et flashback til det øjeblik, du indså, at dine forældre ikke var perfekte",
-            "kc4": "Et flashback til et øjeblik af ren barnlig glæde",
-            "kc5": "Et flashback til et barndomstraume, du gennemlevede",
-            "kc6": "Et flashback til det øjeblik, du indså, at barndommen ikke ville vare evigt",
-            "kc7": "Et flashback til første gang, du hørte om TV Odyssey"
+            "kc1": "Et flashback, der viser din nøglebarnsrutine, hver gang du kom hjem fra skole.",
+            "kc2": "Et flashback, der viser, hvordan du stod udenfor blandt dine skolekammerater.",
+            "kc3": "Et flashback til det øjeblik, du indså, at dine forældre ikke var perfekte.",
+            "kc4": "Et flashback til dengang du følte ægte lykke som barn.",
+            "kc5": "Et flashback til dengang du oplevede et barndomstraume.",
+            "kc6": "Et flashback til det øjeblik, du indså, at barndommen ikke varede evigt.",
+            "kc7": "Et flashback til dengang du først opdagede TV Odyssey."
         },
         "DesolationKey": {
             "dk1Name": "Sandstensbuen.",
-            "dk1Text": "Låser op for spørgsmålet ved sessionens slutning: »Modtog du et Signal fra Den Anden Side?«",
+            "dk1Text": "Lås op for spørgsmålet ved Sessionens Slutning: »Modtog du et Signal fra Den Anden Side?«",
             "dk2Name": "Den Bundløse Brønd.",
-            "dk2Text": "Fornuft −1, Følsomhed +1",
+            "dk2Text": "Din Fornuft-modifikator sænkes med 1, og din Følsomhed-modifikator øges med 1.",
             "dk3Name": "Den Vandrende Monolit.",
-            "dk3Text": "Du kan nu opsøge den Store Mand",
+            "dk3Text": "Du kan nu opsøge den Store Mand. Hvordan tager du kontakt til ham? Den Store Mand kan rådspørges som enhver anden Bifigur. Når du gør det, så rul med Følsomhed. På 7-9 får du 1 Ledetråd; han afslører den på en måde, der afspejler hans aktuelle lune. På 10+, som ovenfor, men du får 2 Ledetråde. På en forbier skal du markere det næste felt på Forladthedens Nøgle.",
             "dk4Name": "Den Kromatiske Ørken.",
-            "dk4Text": "Andre karakterer kan ikke længere opfatte dig",
+            "dk4Text": "Du kan ikke længere opfattes af andre karakterer, og alle minder om dig er slettet — det er, som om du aldrig har eksisteret. Du kan fortsætte med at efterforske, men de Ledetråde, du finder, er kun tilgængelige, hvis du fortæller dem ind i en Odyssey-båndscene.",
             "dk5Name": "Det Renhvide Signal.",
-            "dk5Text": "Du mister din forbindelse til verden. Karakteren trækker sig tilbage"
+            "dk5Text": "Du mister al kontakt med denne verden. Bed Vogteren om at afspille et hvidt Odyssey-bånd, og pensionér derefter denne karakter."
         },
         "Advancements": {
-            "IncreaseStat": "Forøg en egenskab med 1 (maks. 3)",
-            "ExtraMove": "Vælg et ekstra træk",
-            "WriteMove": "Skriv dit eget træk til din karakter",
-            "ClearCorner": "Fjern alle markeringer i »Dit Hjørne af Huset«"
+            "IncreaseStat": "Forøg en evne med 1 (maks. 3).",
+            "ExtraMove": "Vælg et ekstra nøglebarnstræk.",
+            "WriteMove": "Skriv et personligt nøglebarnstræk til din karakter.",
+            "ClearCorner": "Fjern markeringerne fra alle genstandene i »Dit Hjørne af Huset«."
         },
         "Corner": {
             "Add": "Tilføj genstand",
@@ -99,15 +99,15 @@
             "Empty": "Tomt — tilføj genstande med +-knappen"
         },
         "DawnQuestions": {
-            "Hint": "Det første er altid markeret. Det andet markeres, når det er låst op. Markér to mere.",
-            "dq1": "Fandt nøglebørnene svaret på et af mysterierne?",
+            "Hint": "Det første er altid markeret. Det andet er altid markeret, efter det er låst op. Markér to mere.",
+            "dq1": "Løste nøglebørnene et mysterium?",
             "dq2": "Modtog du et Signal fra Den Anden Side?",
-            "dq2Locked": "(Låst, indtil Sandstensbuen er markeret)",
+            "dq2Locked": "(Låst, indtil du markerer Sandstensbuen)",
             "dq3": "Delte du et godt minde fra din barndom?",
             "dq4": "Var du sårbar over for nogen?",
-            "dq5": "Gjorde du noget særligt for at genskabe forbindelsen til Deep Lake?",
+            "dq5": "Gjorde du dig særlig umage for at genskabe forbindelsen til Deep Lake?",
             "dq6": "Holdt du en isnende monolog om noget, der skete for dig i fortiden?",
-            "dq7": "Lod du dig selv slippe løs mindst én gang?"
+            "dq7": "Slap du dig selv løs for en gangs skyld?"
         },
         "Moves": {
             "Add": "Tilføj træk",
