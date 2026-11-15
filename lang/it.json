@@ -1,0 +1,131 @@
+{
+    "TYPES": {
+        "Actor": {
+            "player": "Giocatore",
+            "mystery": "Mistero"
+        },
+        "Item": {
+            "moves": "Mossa da bambino con la chiave",
+            "corner_item": "Oggetto dell'angolo della casa"
+        }
+    },
+    "PUBLIC_ACCESS": {
+        "SheetLabels": {
+            "Player": "Scheda giocatore di Public Access",
+            "Move": "Scheda mossa di Public Access"
+        },
+        "Nav": {
+            "Home": "Home",
+            "Characters": "Personaggi",
+            "ViewProfile": "Visualizzazione profilo",
+            "Compendium": "Compendio",
+            "Move": "Mossa"
+        },
+        "Header": {
+            "CharacterNamePlaceholder": "Nome del personaggio",
+            "UserTitle": "bambino con la chiave",
+            "Online": "ONLINE",
+            "PostedToday": "Pubblicato: oggi alle ???"
+        },
+        "Fields": {
+            "Species": "Specie",
+            "Style": "Stile"
+        },
+        "Tabs": {
+            "Character": "Personaggio",
+            "Notes": "Note"
+        },
+        "Sections": {
+            "Stats": "ABILITÀ",
+            "TakesYouBack": "TI RIPORTA INDIETRO",
+            "Conditions": "CONDIZIONI",
+            "KeyOfChild": "LA CHIAVE DEL BAMBINO",
+            "DesolationKey": "LA CHIAVE DELLA DESOLAZIONE",
+            "XP": "TRACCIATO PX",
+            "Advancements": "AVANZAMENTI",
+            "Corner": "IL TUO ANGOLO DELLA CASA",
+            "DawnQuestions": "DOMANDE DELL'ALBA",
+            "Moves": "MOSSE DA BAMBINO CON LA CHIAVE",
+            "Notes": "NOTE",
+            "Description": "DESCRIZIONE"
+        },
+        "Stats": {
+            "Vitality": "Vitalità",
+            "Composure": "Autocontrollo",
+            "Reason": "Ragione",
+            "Presence": "Presenza",
+            "Sensitivity": "Sensibilità",
+            "RollHint": "Clic: 2d6+abilità | Maiusc: vantaggio (3d6kh2) | Ctrl: svantaggio (3d6kl2)"
+        },
+        "Roll": {
+            "Advantage": "vantaggio",
+            "Disadvantage": "svantaggio"
+        },
+        "TakesYouBack": {
+            "Placeholder": "Ricordo..."
+        },
+        "KeyOfChild": {
+            "kc1": "Un flashback che mostra la tua routine di bambino con la chiave ogni volta che tornavi a casa da scuola.",
+            "kc2": "Un flashback che mostra come eri un emarginato tra i tuoi compagni di scuola.",
+            "kc3": "Un flashback del momento in cui hai capito che i tuoi genitori erano imperfetti.",
+            "kc4": "Un flashback di quando hai provato felicità autentica da bambino.",
+            "kc5": "Un flashback di quando hai vissuto un trauma infantile.",
+            "kc6": "Un flashback del momento in cui hai capito che l'infanzia non era per sempre.",
+            "kc7": "Un flashback della prima volta che hai scoperto TV Odyssey."
+        },
+        "DesolationKey": {
+            "dk1Name": "L'Arco di Arenaria.",
+            "dk1Text": "Sblocca la domanda di Fine Sessione: «Hai ricevuto un Segnale dall'Altro Lato?»",
+            "dk2Name": "Il Pozzo Insondabile.",
+            "dk2Text": "Il tuo modificatore di Ragione è ridotto di 1 e il tuo modificatore di Sensibilità è aumentato di 1.",
+            "dk3Name": "Il Monolite Errante.",
+            "dk3Text": "Ora puoi metterti in cerca del Grande Uomo. Come entri in contatto con lui? Il Grande Uomo può essere consultato come qualsiasi altro Personaggio Secondario. Quando lo fai, tira con Sensibilità. Con 7-9 ottieni 1 Indizio; lo rivelerà in un modo che riflette il suo umore del momento. Con 10+, come sopra, ma ottieni 2 Indizi. Con un fallimento devi segnare la casella successiva de La Chiave della Desolazione.",
+            "dk4Name": "Il Deserto Cromatico.",
+            "dk4Text": "Non puoi più essere percepito dagli altri personaggi e ogni ricordo di te è cancellato — è come se non fossi mai esistito. Puoi continuare a indagare, ma gli Indizi che trovi sono disponibili solo se li narri in una scena di una cassetta di Odyssey.",
+            "dk5Name": "Il Segnale Bianco Puro.",
+            "dk5Text": "Perdi ogni contatto con questo mondo. Di' al Custode di riprodurre una cassetta bianca di Odyssey e poi ritira questo personaggio."
+        },
+        "Advancements": {
+            "IncreaseStat": "Aumenta un'abilità di 1 (max 3).",
+            "ExtraMove": "Scegli una mossa da bambino con la chiave aggiuntiva.",
+            "WriteMove": "Scrivi una mossa da bambino con la chiave personalizzata per il tuo personaggio.",
+            "ClearCorner": "Togli il segno da tutti gli oggetti in «Il Tuo Angolo della Casa»."
+        },
+        "Corner": {
+            "Add": "Aggiungi oggetto",
+            "Cross": "Depenna",
+            "Remove": "Rimuovi",
+            "Placeholder": "Oggetto...",
+            "Empty": "Vuoto — aggiungi oggetti con il pulsante +"
+        },
+        "DawnQuestions": {
+            "Hint": "La prima è sempre segnata. La seconda è sempre segnata dopo essere stata sbloccata. Segnane altre due.",
+            "dq1": "I bambini con la chiave hanno risolto un mistero?",
+            "dq2": "Hai ricevuto un Segnale dall'Altro Lato?",
+            "dq2Locked": "(Bloccata finché non segni L'Arco di Arenaria)",
+            "dq3": "Hai condiviso un bel ricordo della tua infanzia?",
+            "dq4": "Sei stato vulnerabile con qualcuno?",
+            "dq5": "Ti sei dato particolarmente da fare per ritrovare il legame con Deep Lake?",
+            "dq6": "Hai recitato un monologo agghiacciante su qualcosa che ti è successo in passato?",
+            "dq7": "Ti sei lasciato andare per una volta?"
+        },
+        "Moves": {
+            "Add": "Aggiungi mossa",
+            "Edit": "Modifica",
+            "Delete": "Elimina",
+            "Empty": "Ancora nessuna mossa."
+        },
+        "Notes": {
+            "Placeholder": "Annota i tuoi pensieri..."
+        },
+        "MoveSheet": {
+            "NamePlaceholder": "Nome della mossa",
+            "DescriptionPlaceholder": "Descrivi cosa fa questa mossa..."
+        },
+        "Item": {
+            "NewCornerItem": "Nuovo oggetto",
+            "NewMove": "Nuova mossa"
+        },
+        "Signature": "ciò che è stato dimenticato ti troverà"
+    }
+}

@@ -1,0 +1,131 @@
+{
+    "TYPES": {
+        "Actor": {
+            "player": "Spiller",
+            "mystery": "Mysterium"
+        },
+        "Item": {
+            "moves": "Nøkkelbarnstrekk",
+            "corner_item": "Gjenstand fra husets hjørne"
+        }
+    },
+    "PUBLIC_ACCESS": {
+        "SheetLabels": {
+            "Player": "Public Access-spillerark",
+            "Move": "Public Access-trekkark"
+        },
+        "Nav": {
+            "Home": "Hjem",
+            "Characters": "Karakterer",
+            "ViewProfile": "Viser profil",
+            "Compendium": "Kompendium",
+            "Move": "Trekk"
+        },
+        "Header": {
+            "CharacterNamePlaceholder": "Karakternavn",
+            "UserTitle": "nøkkelbarn",
+            "Online": "PÅLOGGET",
+            "PostedToday": "Postet: I dag kl. ???"
+        },
+        "Fields": {
+            "Species": "Art",
+            "Style": "Stil"
+        },
+        "Tabs": {
+            "Character": "Karakter",
+            "Notes": "Notater"
+        },
+        "Sections": {
+            "Stats": "EVNER",
+            "TakesYouBack": "DET TAR DEG TILBAKE",
+            "Conditions": "TILSTANDER",
+            "KeyOfChild": "BARNETS NØKKEL",
+            "DesolationKey": "ØDSLIGHETENS NØKKEL",
+            "XP": "XP-SPOR",
+            "Advancements": "FORBEDRINGER",
+            "Corner": "DITT HJØRNE AV HUSET",
+            "DawnQuestions": "DAGGRYSPØRSMÅL",
+            "Moves": "NØKKELBARNSTREKK",
+            "Notes": "NOTATER",
+            "Description": "BESKRIVELSE"
+        },
+        "Stats": {
+            "Vitality": "Vitalitet",
+            "Composure": "Fatning",
+            "Reason": "Fornuft",
+            "Presence": "Nærvær",
+            "Sensitivity": "Følsomhet",
+            "RollHint": "Klikk: 2d6+evne | Shift: fordel (3d6kh2) | Ctrl: ulempe (3d6kl2)"
+        },
+        "Roll": {
+            "Advantage": "fordel",
+            "Disadvantage": "ulempe"
+        },
+        "TakesYouBack": {
+            "Placeholder": "Minne..."
+        },
+        "KeyOfChild": {
+            "kc1": "Et tilbakeblikk som viser nøkkelbarnsrutinen din hver gang du kom hjem fra skolen.",
+            "kc2": "Et tilbakeblikk som viser hvordan du var en utenforstående blant skolekameratene dine.",
+            "kc3": "Et tilbakeblikk på øyeblikket du innså at foreldrene dine ikke var perfekte.",
+            "kc4": "Et tilbakeblikk på da du kjente ekte lykke som barn.",
+            "kc5": "Et tilbakeblikk på da du opplevde et barndomstraume.",
+            "kc6": "Et tilbakeblikk på øyeblikket du innså at barndommen ikke varte evig.",
+            "kc7": "Et tilbakeblikk på da du først oppdaget TV Odyssey."
+        },
+        "DesolationKey": {
+            "dk1Name": "Sandsteinsbuen.",
+            "dk1Text": "Lås opp spørsmålet ved Øktens Slutt: «Mottok du et Signal fra Den Andre Siden?»",
+            "dk2Name": "Den Bunnløse Brønnen.",
+            "dk2Text": "Fornuft-modifikatoren din reduseres med 1 og Følsomhet-modifikatoren din økes med 1.",
+            "dk3Name": "Den Vandrende Monolitten.",
+            "dk3Text": "Du kan nå oppsøke den Store Mannen. Hvordan tar du kontakt med ham? Den Store Mannen kan rådspørres som enhver annen Bifigur. Når du gjør det, rull med Følsomhet. På 7-9 får du 1 Ledetråd; han avslører den på en måte som gjenspeiler hans nåværende lune. På 10+, som over, men du får 2 Ledetråder. På en bom må du merke neste rute på Ødslighetens Nøkkel.",
+            "dk4Name": "Den Kromatiske Ørkenen.",
+            "dk4Text": "Du kan ikke lenger oppfattes av andre karakterer, og alle minner om deg er visket ut — det er som om du aldri har eksistert. Du kan fortsette å etterforske, men Ledetrådene du finner er bare tilgjengelige hvis du forteller dem inn i en Odyssey-kassettscene.",
+            "dk5Name": "Det Renhvite Signalet.",
+            "dk5Text": "Du mister all kontakt med denne verdenen. Be Vokteren spille av en hvit Odyssey-kassett, og pensjoner deretter denne karakteren."
+        },
+        "Advancements": {
+            "IncreaseStat": "Øk en evne med 1 (maks 3).",
+            "ExtraMove": "Velg et ekstra nøkkelbarnstrekk.",
+            "WriteMove": "Skriv et eget nøkkelbarnstrekk for karakteren din.",
+            "ClearCorner": "Fjern merkene fra alle gjenstandene i «Ditt Hjørne av Huset»."
+        },
+        "Corner": {
+            "Add": "Legg til gjenstand",
+            "Cross": "Stryk over",
+            "Remove": "Fjern",
+            "Placeholder": "Gjenstand...",
+            "Empty": "Tomt — legg til gjenstander med +-knappen"
+        },
+        "DawnQuestions": {
+            "Hint": "Det første er alltid merket. Det andre er alltid merket etter at det er låst opp. Merk to til.",
+            "dq1": "Løste nøkkelbarna et mysterium?",
+            "dq2": "Mottok du et Signal fra Den Andre Siden?",
+            "dq2Locked": "(Låst til du merker Sandsteinsbuen)",
+            "dq3": "Delte du et godt minne fra barndommen din?",
+            "dq4": "Var du sårbar sammen med noen?",
+            "dq5": "Gjorde du en ekstra innsats for å gjenopprette båndet til Deep Lake?",
+            "dq6": "Holdt du en isnende monolog om noe som hendte deg i fortiden?",
+            "dq7": "Slapp du deg løs for en gangs skyld?"
+        },
+        "Moves": {
+            "Add": "Legg til trekk",
+            "Edit": "Rediger",
+            "Delete": "Slett",
+            "Empty": "Ingen trekk ennå."
+        },
+        "Notes": {
+            "Placeholder": "Skriv ned tankene dine..."
+        },
+        "MoveSheet": {
+            "NamePlaceholder": "Navn på trekket",
+            "DescriptionPlaceholder": "Beskriv hva dette trekket gjør..."
+        },
+        "Item": {
+            "NewCornerItem": "Ny gjenstand",
+            "NewMove": "Nytt trekk"
+        },
+        "Signature": "det glemte vil finne deg"
+    }
+}

@@ -1,0 +1,131 @@
+{
+    "TYPES": {
+        "Actor": {
+            "player": "玩家",
+            "mystery": "謎團"
+        },
+        "Item": {
+            "moves": "鎖匙仔行動",
+            "corner_item": "屋角物品"
+        }
+    },
+    "PUBLIC_ACCESS": {
+        "SheetLabels": {
+            "Player": "Public Access 玩家角色卡",
+            "Move": "Public Access 行動卡"
+        },
+        "Nav": {
+            "Home": "主頁",
+            "Characters": "角色",
+            "ViewProfile": "睇緊個人資料",
+            "Compendium": "合集",
+            "Move": "行動"
+        },
+        "Header": {
+            "CharacterNamePlaceholder": "角色名",
+            "UserTitle": "鎖匙仔",
+            "Online": "在線",
+            "PostedToday": "發佈於：今日 ???"
+        },
+        "Fields": {
+            "Species": "物種",
+            "Style": "風格"
+        },
+        "Tabs": {
+            "Character": "角色",
+            "Notes": "筆記"
+        },
+        "Sections": {
+            "Stats": "能力",
+            "TakesYouBack": "帶你返去舊時",
+            "Conditions": "狀態",
+            "KeyOfChild": "細路嘅鎖匙",
+            "DesolationKey": "荒蕪嘅鎖匙",
+            "XP": "經驗值軌道",
+            "Advancements": "成長",
+            "Corner": "你嘅屋角",
+            "DawnQuestions": "黎明問題",
+            "Moves": "鎖匙仔行動",
+            "Notes": "筆記",
+            "Description": "描述"
+        },
+        "Stats": {
+            "Vitality": "活力",
+            "Composure": "沉着",
+            "Reason": "理智",
+            "Presence": "存在感",
+            "Sensitivity": "敏感度",
+            "RollHint": "撳一下：2d6+能力 | Shift：優勢 (3d6kh2) | Ctrl：劣勢 (3d6kl2)"
+        },
+        "Roll": {
+            "Advantage": "優勢",
+            "Disadvantage": "劣勢"
+        },
+        "TakesYouBack": {
+            "Placeholder": "回憶..."
+        },
+        "KeyOfChild": {
+            "kc1": "一段閃回：影住你每次放學返到屋企嘅鎖匙仔日常。",
+            "kc2": "一段閃回：影住你喺學校同輩之中點樣格格不入。",
+            "kc3": "一段閃回：你發覺爸媽並唔完美嘅嗰一刻。",
+            "kc4": "一段閃回：你細個嗰陣感受到真正快樂嘅時候。",
+            "kc5": "一段閃回：你經歷童年創傷嘅時候。",
+            "kc6": "一段閃回：你發覺童年唔係永遠嘅嗰一刻。",
+            "kc7": "一段閃回：你第一次發現 TV Odyssey 嘅時候。"
+        },
+        "DesolationKey": {
+            "dk1Name": "砂岩拱門。",
+            "dk1Text": "解鎖場次結束問題：「你有冇收到嚟自另一邊嘅信號？」",
+            "dk2Name": "深不見底嘅井。",
+            "dk2Text": "你嘅理智調整值減 1，敏感度調整值加 1。",
+            "dk3Name": "游蕩嘅巨石。",
+            "dk3Text": "你而家可以去搵大個佬。你點樣同佢聯絡？大個佬可以好似其他配角噉畀你請教。你噉做嘅時候，用敏感度擲骰。擲到 7-9，你攞到 1 條線索；佢會用反映佢當時心情嘅方式話你知。擲到 10+，同上，但係你攞到 2 條線索。失手嘅話，你必須標記荒蕪嘅鎖匙嘅下一個格仔。",
+            "dk4Name": "彩色沙漠。",
+            "dk4Text": "其他角色再都感知唔到你，關於你嘅所有記憶都被抹走——就好似你從來冇存在過噉。你可以繼續調查，但係你搵到嘅線索，只有喺你將佢哋講入 Odyssey 錄影帶場景嘅時候先用得。",
+            "dk5Name": "純白信號。",
+            "dk5Text": "你同呢個世界徹底失去聯繫。叫守密人播一餅白色 Odyssey 錄影帶，然後將呢個角色退役。"
+        },
+        "Advancements": {
+            "IncreaseStat": "將一項能力加 1（最高 3）。",
+            "ExtraMove": "揀多一個鎖匙仔行動。",
+            "WriteMove": "為你嘅角色自己寫一個鎖匙仔行動。",
+            "ClearCorner": "取消「你嘅屋角」入面所有物品嘅記號。"
+        },
+        "Corner": {
+            "Add": "加物品",
+            "Cross": "劃走",
+            "Remove": "移除",
+            "Placeholder": "物品...",
+            "Empty": "乜都冇 — 用 + 掣加物品"
+        },
+        "DawnQuestions": {
+            "Hint": "第一條問題永遠都有記號。第二條解鎖之後就永遠都有記號。再標記多兩條。",
+            "dq1": "啲鎖匙仔有冇解決到一個謎團？",
+            "dq2": "你有冇收到嚟自另一邊嘅信號？",
+            "dq2Locked": "（你標記咗砂岩拱門先至解鎖）",
+            "dq3": "你有冇分享一段童年嘅美好回憶？",
+            "dq4": "你有冇喺人面前展現脆弱嘅一面？",
+            "dq5": "你有冇特登做啲嘢去同深湖重新建立聯繫？",
+            "dq6": "你有冇就住以前發生喺你身上嘅事，講咗一段令人毛骨悚然嘅獨白？",
+            "dq7": "你有冇難得放縱自己一次？"
+        },
+        "Moves": {
+            "Add": "加行動",
+            "Edit": "編輯",
+            "Delete": "刪除",
+            "Empty": "仲未有行動。"
+        },
+        "Notes": {
+            "Placeholder": "寫低你嘅諗法..."
+        },
+        "MoveSheet": {
+            "NamePlaceholder": "行動名稱",
+            "DescriptionPlaceholder": "描述吓呢個行動做啲乜..."
+        },
+        "Item": {
+            "NewCornerItem": "新物品",
+            "NewMove": "新行動"
+        },
+        "Signature": "被遺忘嘅嘢會搵到你"
+    }
+}

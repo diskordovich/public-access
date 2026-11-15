@@ -1,0 +1,131 @@
+{
+    "TYPES": {
+        "Actor": {
+            "player": "Jugador",
+            "mystery": "Misterio"
+        },
+        "Item": {
+            "moves": "Movimiento de niño de la llave",
+            "corner_item": "Objeto del rincón de la casa"
+        }
+    },
+    "PUBLIC_ACCESS": {
+        "SheetLabels": {
+            "Player": "Hoja de jugador de Public Access",
+            "Move": "Hoja de movimiento de Public Access"
+        },
+        "Nav": {
+            "Home": "Inicio",
+            "Characters": "Personajes",
+            "ViewProfile": "Viendo perfil",
+            "Compendium": "Compendio",
+            "Move": "Movimiento"
+        },
+        "Header": {
+            "CharacterNamePlaceholder": "Nombre del personaje",
+            "UserTitle": "niño de la llave",
+            "Online": "EN LÍNEA",
+            "PostedToday": "Publicado: hoy a las ???"
+        },
+        "Fields": {
+            "Species": "Especie",
+            "Style": "Estilo"
+        },
+        "Tabs": {
+            "Character": "Personaje",
+            "Notes": "Notas"
+        },
+        "Sections": {
+            "Stats": "HABILIDADES",
+            "TakesYouBack": "TE LLEVA AL PASADO",
+            "Conditions": "CONDICIONES",
+            "KeyOfChild": "LA LLAVE DEL NIÑO",
+            "DesolationKey": "LA LLAVE DE LA DESOLACIÓN",
+            "XP": "CONTADOR DE PX",
+            "Advancements": "AVANCES",
+            "Corner": "TU RINCÓN DE LA CASA",
+            "DawnQuestions": "PREGUNTAS DEL AMANECER",
+            "Moves": "MOVIMIENTOS DE NIÑO DE LA LLAVE",
+            "Notes": "NOTAS",
+            "Description": "DESCRIPCIÓN"
+        },
+        "Stats": {
+            "Vitality": "Vitalidad",
+            "Composure": "Compostura",
+            "Reason": "Razón",
+            "Presence": "Presencia",
+            "Sensitivity": "Sensibilidad",
+            "RollHint": "Clic: 2d6+habilidad | Mayús: ventaja (3d6kh2) | Ctrl: desventaja (3d6kl2)"
+        },
+        "Roll": {
+            "Advantage": "ventaja",
+            "Disadvantage": "desventaja"
+        },
+        "TakesYouBack": {
+            "Placeholder": "Recuerdo..."
+        },
+        "KeyOfChild": {
+            "kc1": "Un flashback que muestra tu rutina de niño de la llave cada vez que volvías de la escuela.",
+            "kc2": "Un flashback que muestra cómo eras un marginado entre tus compañeros de escuela.",
+            "kc3": "Un flashback del momento en que comprendiste que tus padres eran imperfectos.",
+            "kc4": "Un flashback de cuando sentiste felicidad genuina siendo niño.",
+            "kc5": "Un flashback de cuando sufriste un trauma infantil.",
+            "kc6": "Un flashback del momento en que comprendiste que la infancia no era para siempre.",
+            "kc7": "Un flashback de la primera vez que descubriste TV Odyssey."
+        },
+        "DesolationKey": {
+            "dk1Name": "El Arco de Arenisca.",
+            "dk1Text": "Desbloquea la pregunta de Fin de Sesión: «¿Recibiste una Señal del Otro Lado?»",
+            "dk2Name": "El Pozo Insondable.",
+            "dk2Text": "Tu modificador de Razón se reduce en 1 y tu modificador de Sensibilidad aumenta en 1.",
+            "dk3Name": "El Monolito Errante.",
+            "dk3Text": "Ahora puedes buscar al Gran Hombre. ¿Cómo contactas con él? El Gran Hombre puede ser consultado como cualquier otro Personaje Secundario. Cuando lo hagas, tira con Sensibilidad. Con 7-9, obtienes 1 Pista; él la revelará de una forma que refleje su disposición del momento. Con 10+, como antes, pero obtienes 2 Pistas. Con un fallo, debes marcar la siguiente casilla de La Llave de la Desolación.",
+            "dk4Name": "El Desierto Cromático.",
+            "dk4Text": "Ya no puedes ser percibido por los demás personajes y todo recuerdo de ti queda borrado; es como si nunca hubieras existido. Puedes seguir investigando, pero las Pistas que encuentres solo están disponibles si las narras dentro de una escena de cinta de Odyssey.",
+            "dk5Name": "La Señal Blanca Pura.",
+            "dk5Text": "Pierdes todo contacto con este mundo. Dile al Guardián que reproduzca una cinta blanca de Odyssey y luego retira a este personaje."
+        },
+        "Advancements": {
+            "IncreaseStat": "Aumenta una habilidad en 1 (máx. 3).",
+            "ExtraMove": "Elige un movimiento de niño de la llave adicional.",
+            "WriteMove": "Escribe un movimiento de niño de la llave personalizado para tu personaje.",
+            "ClearCorner": "Desmarca todos los objetos de «Tu Rincón de la Casa»."
+        },
+        "Corner": {
+            "Add": "Añadir objeto",
+            "Cross": "Tachar",
+            "Remove": "Eliminar",
+            "Placeholder": "Objeto...",
+            "Empty": "Vacío — añade objetos con el botón +"
+        },
+        "DawnQuestions": {
+            "Hint": "La primera siempre está marcada. La segunda siempre se marca después de desbloquearse. Marca dos más.",
+            "dq1": "¿Resolvieron los niños de la llave un misterio?",
+            "dq2": "¿Recibiste una Señal del Otro Lado?",
+            "dq2Locked": "(Bloqueada hasta que marques El Arco de Arenisca)",
+            "dq3": "¿Compartiste un buen recuerdo de tu infancia?",
+            "dq4": "¿Fuiste vulnerable con alguien?",
+            "dq5": "¿Te esforzaste especialmente por reconectar con Deep Lake?",
+            "dq6": "¿Pronunciaste un monólogo escalofriante sobre algo que te ocurrió en el pasado?",
+            "dq7": "¿Te soltaste por una vez?"
+        },
+        "Moves": {
+            "Add": "Añadir movimiento",
+            "Edit": "Editar",
+            "Delete": "Eliminar",
+            "Empty": "Aún no hay movimientos."
+        },
+        "Notes": {
+            "Placeholder": "Escribe tus pensamientos..."
+        },
+        "MoveSheet": {
+            "NamePlaceholder": "Nombre del movimiento",
+            "DescriptionPlaceholder": "Describe lo que hace este movimiento..."
+        },
+        "Item": {
+            "NewCornerItem": "Nuevo objeto",
+            "NewMove": "Nuevo movimiento"
+        },
+        "Signature": "lo olvidado te encontrará"
+    }
+}

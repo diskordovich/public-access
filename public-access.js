@@ -65,7 +65,7 @@ class PublicAccessPlayerSheet extends ActorSheet {
   async _onCornerAdd(event) {
     event.preventDefault();
     await this.actor.createEmbeddedDocuments("Item", [{
-      name: "Новый предмет",
+      name: game.i18n.localize("PUBLIC_ACCESS.Item.NewCornerItem"),
       type: "corner_item"
     }]);
   }
@@ -73,7 +73,7 @@ class PublicAccessPlayerSheet extends ActorSheet {
   async _onMoveAdd(event) {
     event.preventDefault();
     const created = await this.actor.createEmbeddedDocuments("Item", [{
-      name: "Новый ход",
+      name: game.i18n.localize("PUBLIC_ACCESS.Item.NewMove"),
       type: "moves"
     }]);
     created[0]?.sheet.render(true);
@@ -88,10 +88,10 @@ class PublicAccessPlayerSheet extends ActorSheet {
     let formula, mode;
     if (event.shiftKey) {
       formula = `3d6kh2 + ${value}`;
-      mode = " (преимущество)";
+      mode = ` (${game.i18n.localize("PUBLIC_ACCESS.Roll.Advantage")})`;
     } else if (event.ctrlKey) {
       formula = `3d6kl2 + ${value}`;
-      mode = " (помеха)";
+      mode = ` (${game.i18n.localize("PUBLIC_ACCESS.Roll.Disadvantage")})`;
     } else {
       formula = `2d6 + ${value}`;
       mode = "";
@@ -130,12 +130,12 @@ Hooks.once("init", () => {
   Actors.registerSheet("public-access", PublicAccessPlayerSheet, {
     types: ["player"],
     makeDefault: true,
-    label: "Public Access Player Sheet"
+    label: "PUBLIC_ACCESS.SheetLabels.Player"
   });
 
   Items.registerSheet("public-access", PublicAccessMoveSheet, {
     types: ["moves"],
     makeDefault: true,
-    label: "Public Access Move Sheet"
+    label: "PUBLIC_ACCESS.SheetLabels.Move"
   });
 });
